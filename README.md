@@ -67,102 +67,112 @@ Beobachtungen:
 
 ---
 
-##Mein exakter Prompt an alle KI's
+# SAT App Landing Page – Mein kompletter Prompt
 
-**Prompt: Build a SAT App Landing Page**
+## 1. 🎯 Goal of the Website
+Create a clean, professional, and highly usable landing page for a **mobile app** that helps students prepare for the **SAT** (Scholastic Assessment Test).  
+The site should:
+- Inform, convince, and guide visitors through app features, SAT insights, and relevant universities.
+- Look trustworthy and fun to explore.
+- Be fully responsive across all devices.
+- Include **abstract sections** for a creative, modern touch.
 
---Full Specification – Please follow precisely
+---
 
-1. What’s the goal of the website?
-We want to create a clean, professional, and highly usable landing page for a mobile app that helps students prepare for the SAT (Scholastic Assessment Test). The goal is to inform, convince, and guide visitors through the app’s features, SAT insights, and relevant universities. It should look trustworthy, be fun to explore, and work perfectly on all devices. The page should also include some abstract sections to give it a creative and modern feel.
+## 2. 🖥️ Website Type
+A **landing page** with structured subpages:
 
-2. What type of website is it?
-A landing page with additional structured subpages for:
+- `/features.html`: App Features Overview
+- `/feature-detail.html`: Individual Feature Page (template)
+- `/sat-info.html`: General SAT Info & Stats
+- `/unis.html`: SAT-Required Universities Directory
+- `/contact.html`: Contact & Feedback Form
+- `/calculator.html`: SAT Score Calculator
 
-Features
+---
 
-SAT information
+## 3. 🧱 Pages & Layout
 
-University directory
+| Page                  | Description                                                                 | CSS File              |
+|-----------------------|-----------------------------------------------------------------------------|------------------------|
+| `/index.html`         | Main page: Welcome, updates, newsletter, CTA                                | `/css/index.css`      |
+| `/features.html`      | Filterable grid of all app features                                         | `/css/features.css`   |
+| `/feature-detail.html`| Template for individual feature details                                     | `/css/feature-detail.css` |
+| `/sat-info.html`      | SAT overview, visuals, FAQ                                                  | `/css/sat-info.css`   |
+| `/unis.html`          | Filterable/searchable SAT university list                                   | `/css/unis.css`       |
+| `/contact.html`       | Contact form, dropdown logic, star-rating feedback                          | `/css/contact.css`    |
+| `/calculator.html`    | Interactive SAT score calculator                                             | `/css/calculator.css` |
 
-Contact & feedback
-
-a dedicated SAT Score Calculator
-
-3. What’s the structure?
-📂 Pages & Layout – With Matching CSS Files
-HTML File	Beschreibung	CSS File
-/index.html	Main landing page with welcome section, latest updates, newsletter & CTA	/css/index.css
-/features.html	Overview of all app features in a filterable grid + links to detail pages	/css/features.css
-/feature-detail.html	Template page for individual features (reused for each feature)	/css/feature-detail.css
-/sat-info.html	General SAT information, visual stats, preparation insights, FAQ	/css/sat-info.css
-/unis.html	Searchable/filterable list of SAT-required universities with detail pages	/css/unis.css
-/contact.html	Team section, contact form, dropdown logic, feedback module	/css/contact.css
-/calculator.html	Interactive SAT Score Calculator with real logic and result rendering	/css/calculator.css
 Each page includes:
+- Sticky header navigation
+- Grid-based main layout
+- Footer with legal info, email, privacy, social links (optional)
 
-Sticky header navigation
+---
 
-Grid-based layout in main content
+## 4. 🎨 Design Style
 
-Footer with legal info, email, privacy policy, optional social links
+A **hybrid of Swiss and California design**:
 
-4. What design style do we want?
-A hybrid of Swiss and California design with abstract accents:
+- **Swiss**: strong grids, whitespace, consistent alignment, Helvetica / Inter
+- **California**: bold colors, abstract SVGs, subtle animations
+- **Color Palette**: max. 2 primary colors (e.g., blue & gray) + 1 accent
+- **Responsive**: 320px → 1440px+
 
-Swiss: strong grids, whitespace, consistent alignment, readable typography
+Design accents:
+- Curved dividers
+- Floating SVGs
+- Clean, minimal but expressive
 
-California: bold colors, expressive animations, playful abstract shapes
+---
 
-Design balance: clean & minimal, but with small creative sections (e.g. curved dividers, subtle floating SVGs)
+## 5. ⚙️ Core Functionality
 
-Typography: Helvetica / Inter / Noto Sans
+- [x] Real **SAT Score Calculator** (with logic and formula)
+- [x] Newsletter sign-up
+- [x] Feature grid with category filter
+- [x] University directory with filter/search
+- [x] Contact form (subject dropdown, file upload)
+- [x] Feedback module (text + star rating)
+- [ ] Optional: Dark mode toggle, interactive scroll animations
 
-Colors: max. 2 primary (e.g. blue & gray) + 1 accent color
+---
 
-Responsive: From 320px (mobile) to 1440px+ (desktop)
+## 6. 💡 Tech Stack
 
-5. What functionality do we need?
+- ❌ **No frameworks** (e.g. no Bootstrap, Tailwind)
+- ✅ **Native HTML5 / CSS3**
+  - CSS Grid, Flexbox, media queries
+- ✅ **Vanilla JavaScript**
+  - Calculator logic
+  - Filtering
+  - Form validation
+  - Toggle UI states
 
-SAT Score Calculator with real formulas and score logic
+**Folder structure must remain clean and scalable.**
 
-Newsletter sign-up form (email input)
+---
 
-Kategoriefilter on the Features page
+## 7. 🔍 Design Inspirations
 
-Individual feature detail pages (text, image, optional video embed)
+- **Notion** – layout clarity  
+- **Apple** – storytelling  
+- **Superlist** – abstract animations  
+- **Swissdesign.org** – space & typography
 
-University directory with filters (e.g. country, SAT score, study area)
+---
 
-Contact form with dropdown subject and file upload
+## 8. 📌 Summary
 
-Feedback form (text + star rating 1–5)
+Build a **modern SAT App Landing Page** with:
+- Swiss-inspired minimalism
+- California-style creativity
+- Multiple responsive pages
+- Real SAT calculator
+- Filtered content views
+- Clean HTML, CSS & JS only
+- Elegant UX & creative visuals
 
-Optional: map integration (for university page), dark mode toggle, animated scroll interactions
-
-6. What technologies or frameworks should (or shouldn't) be used?
-
-❌ No frontend frameworks (no Bootstrap, Tailwind, etc.)
-
-✅ Only native HTML5 & CSS3 (use Grid, Flexbox, media queries)
-
-✅ JavaScript allowed for dynamic features: filters, calculator logic, form validation, toggle states
-
-Keep the file and folder structure clean and scalable
-
-7. Are there any example sites that we want to use as inspiration?
-
-Notion – for layout clarity
-
-Apple – for product storytelling
-
-Superlist – for animation and abstract sections
-
-Swissdesign.org – for type, space, and precision
-
-8. And finally — a summary of everything we just defined.
-
-Build a modern SAT App Landing Page with Swiss-inspired minimalism and abstract California-style creativity. It should be structured across multiple responsive pages, feature a real SAT score calculator, and include filtered lists for features and SAT universities. The site is clean-coded using only HTML, CSS, and vanilla JS. Functionality includes forms, interactive filters, and animated visuals — all presented with a beautiful, professional, and engaging UX.
 
 
 
