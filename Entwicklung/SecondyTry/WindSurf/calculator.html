@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Score Calculator - SAT Prep App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav class="container">
+            <a href="/index.html" class="logo">SATApp</a>
+            <ul>
+                <li><a href="/features.html">Features</a></li>
+                <li><a href="/sat-info.html">SAT Info</a></li>
+                <li><a href="/unis.html">Universities</a></li>
+                <li><a href="/calculator.html">Score Calculator</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>SAT Score Calculator</h1>
+            <p>Calculate your estimated SAT score based on your performance.</p>
+            <div class="calculator-container">
+                <form id="sat-calculator-form">
+                    <div class="form-section">
+                        <h2>Reading & Writing</h2>
+                        <div class="form-group">
+                            <label for="rw-correct">Number of Correct Answers (out of 54)</label>
+                            <input type="number" id="rw-correct" min="0" max="54" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h2>Math</h2>
+                        <div class="form-group">
+                            <label for="math-correct">Number of Correct Answers (out of 44)</label>
+                            <input type="number" id="math-correct" min="0" max="44" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="cta-button">Calculate Score</button>
+                </form>
+
+                <div id="results-container" class="results-hidden">
+                    <h2>Your Estimated Score</h2>
+                    <div class="total-score-display">
+                        <span id="total-score">0</span>
+                        <p>Total SAT Score</p>
+                    </div>
+                    <div class="section-scores-display">
+                        <div>
+                            <span id="rw-score">0</span>
+                            <p>Reading & Writing</p>
+                        </div>
+                        <div>
+                            <span id="math-score">0</span>
+                            <p>Math</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SATApp. All rights reserved.</p>
+            <p><a href="/privacy.html">Privacy Policy</a> | <a href="mailto:support@satapp.com">support@satapp.com</a></p>
+        </div>
+    </footer>
+    <script src="js/calculator.js"></script>
+
+</body>
+</html>

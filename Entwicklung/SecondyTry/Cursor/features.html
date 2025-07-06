@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features – SAT App</title>
+  <link rel="stylesheet" href="css/features.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="sticky-header">
+    <nav>
+      <div class="logo">SAT App</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="sat-info.html">SAT Info</a></li>
+        <li><a href="unis.html">Universities</a></li>
+        <li><a href="calculator.html">Score Calculator</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="grid-container">
+    <section class="features-header">
+      <h1>App Features</h1>
+      <div class="feature-filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="practice">Practice</button>
+        <button class="filter-btn" data-category="analytics">Analytics</button>
+        <button class="filter-btn" data-category="universities">Universities</button>
+        <button class="filter-btn" data-category="tools">Tools</button>
+      </div>
+    </section>
+    <section class="features-grid" id="features-grid">
+      <!-- Feature cards will be rendered here by JS -->
+    </section>
+    <section class="abstract-accent"></section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <span>&copy; 2024 SAT App. All rights reserved.</span>
+      <a href="#">Privacy Policy</a>
+      <a href="mailto:info@satapp.com">info@satapp.com</a>
+      <div class="social-links"></div>
+    </div>
+  </footer>
+  <script src="js/features.js"></script>
+</body>
+</html> 

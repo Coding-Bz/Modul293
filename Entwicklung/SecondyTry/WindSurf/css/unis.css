@@ -1,0 +1,41 @@
+/* Styles for unis.html */
+
+.uni-filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+}
+
+.uni-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.uni-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.uni-item h3 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.uni-item .country {
+    margin-right: 1rem;
+    font-style: italic;
+}
+
+.uni-item .score {
+    font-weight: bold;
+    color: var(--primary-color);
+}

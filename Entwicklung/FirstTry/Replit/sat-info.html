@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Information - SATPrep Excellence</title>
+    <meta name="description" content="Comprehensive SAT information including statistics, study tips, and frequently asked questions.">
+    
+    <!-- Swiss Design Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Chart.js for Statistics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="sat-info.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h1 class="brand__title">SATPrep Excellence</h1>
+                <span class="brand__tagline">Master Your Future</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="features.html" class="nav__link">Features</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="universities.html" class="nav__link">Universities</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="sat-info.html" class="nav__link nav__link--active">SAT Info</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i data-feather="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">SAT Information</h1>
+                <p class="page-description">Everything you need to know about the SAT exam</p>
+            </div>
+        </section>
+
+        <!-- SAT Overview -->
+        <section class="sat-overview">
+            <div class="container">
+                <div class="overview__content">
+                    <div class="overview__text">
+                        <h2 class="section__title">What is the SAT?</h2>
+                        <p class="section__description">
+                            The SAT (Scholastic Assessment Test) is a standardized test widely used for college admissions in the United States. 
+                            It measures a student's readiness for college and provides colleges with one common data point to compare all applicants.
+                        </p>
+                        
+                        <div class="overview__highlights">
+                            <div class="highlight">
+                                <i data-feather="clock"></i>
+                                <span>3 hours</span>
+                                <small>Test Duration</small>
+                            </div>
+                            <div class="highlight">
+                                <i data-feather="file-text"></i>
+                                <span>2 Sections</span>
+                                <small>Math + Reading & Writing</small>
+                            </div>
+                            <div class="highlight">
+                                <i data-feather="target"></i>
+                                <span>1600</span>
+                                <small>Maximum Score</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="overview__image">
+                        <img src="https://pixabay.com/get/ge9236a3f0e64af1837f44d039b23e350c1ab4da79628dc661d0cfcf673425bc1183696e78460a6103551e27dca4e3f7853f02b9da00446124b417a439c0e32fd_1280.jpg" alt="SAT Information">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">SAT Statistics & Performance Data</h2>
+                    <p class="section__description">Key insights to help you understand SAT performance trends</p>
+                </div>
+                
+                <div class="stats__grid">
+                    <div class="stat__card">
+                        <div class="stat__icon">
+                            <i data-feather="users"></i>
+                        </div>
+                        <div class="stat__content">
+                            <span class="stat__number">1.7M</span>
+                            <span class="stat__label">Students Take SAT Annually</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stat__card">
+                        <div class="stat__icon">
+                            <i data-feather="trending-up"></i>
+                        </div>
+                        <div class="stat__content">
+                            <span class="stat__number">1050</span>
+                            <span class="stat__label">Average SAT Score (2024)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stat__card">
+                        <div class="stat__icon">
+                            <i data-feather="award"></i>
+                        </div>
+                        <div class="stat__content">
+                            <span class="stat__number">1200+</span>
+                            <span class="stat__label">Score for Top Universities</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stat__card">
+                        <div class="stat__icon">
+                            <i data-feather="calendar"></i>
+                        </div>
+                        <div class="stat__content">
+                            <span class="stat__number">7</span>
+                            <span class="stat__label">Test Dates per Year</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts -->
+                <div class="charts__grid">
+                    <div class="chart__container">
+                        <h3 class="chart__title">Score Distribution</h3>
+                        <canvas id="scoreDistributionChart"></canvas>
+                    </div>
+                    
+                    <div class="chart__container">
+                        <h3 class="chart__title">Section Performance</h3>
+                        <canvas id="sectionPerformanceChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why SAT is Important -->
+        <section class="importance">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Why is the SAT Important?</h2>
+                    <p class="section__description">Understanding the role of SAT in college admissions</p>
+                </div>
+                
+                <div class="importance__grid">
+                    <div class="importance__card">
+                        <div class="importance__icon">
+                            <i data-feather="graduation-cap"></i>
+                        </div>
+                        <h3 class="importance__title">College Admissions</h3>
+                        <p class="importance__text">
+                            Most colleges use SAT scores as a key factor in admission decisions, providing a standardized measure to compare applicants from different schools and backgrounds.
+                        </p>
+                    </div>
+                    
+                    <div class="importance__card">
+                        <div class="importance__icon">
+                            <i data-feather="dollar-sign"></i>
+                        </div>
+                        <h3 class="importance__title">Merit Scholarships</h3>
+                        <p class="importance__text">
+                            High SAT scores can qualify you for merit-based scholarships and financial aid, potentially saving thousands of dollars in college costs.
+                        </p>
+                    </div>
+                    
+                    <div class="importance__card">
+                        <div class="importance__icon">
+                            <i data-feather="book"></i>
+                        </div>
+                        <h3 class="importance__title">Course Placement</h3>
+                        <p class="importance__text">
+                            Some colleges use SAT scores for course placement, allowing high-scoring students to skip introductory courses and earn college credit.
+                        </p>
+                    </div>
+                    
+                    <div class="importance__card">
+                        <div class="importance__icon">
+                            <i data-feather="globe"></i>
+                        </div>
+                        <h3 class="importance__title">International Recognition</h3>
+                        <p class="importance__text">
+                            SAT scores are recognized worldwide, making them valuable for students applying to international universities or study abroad programs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Frequently Asked Questions</h2>
+                    <p class="section__description">Get answers to common SAT questions</p>
+                </div>
+                
+                <div class="faq__container">
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>How many times can I take the SAT?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>You can take the SAT as many times as you want. Most students take it 2-3 times to improve their scores. Colleges typically consider your highest score, though some may look at all scores.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>What's a good SAT score?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>A "good" SAT score depends on your college goals. The average score is around 1050. For competitive colleges, aim for 1200+. Top-tier universities typically require 1400+ scores.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>How long should I study for the SAT?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Most students benefit from 3-6 months of consistent preparation. This allows time to identify weaknesses, practice regularly, and take multiple practice tests. Intensive studying for 6-8 weeks can also be effective.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>What's the difference between SAT and ACT?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>The SAT focuses on reasoning and problem-solving skills, while the ACT is more content-based. SAT has 2 sections (Math, Reading & Writing), ACT has 4 (English, Math, Reading, Science). Both are accepted by all US colleges.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>Do I need to take SAT Subject Tests?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>SAT Subject Tests were discontinued in 2021. However, some highly competitive programs may still require or recommend specific subject-area tests. Check with individual colleges for their requirements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>Can I use a calculator on the SAT?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>The SAT Math section has two parts: one allows calculators, the other doesn't. The no-calculator section tests your understanding of math concepts, while the calculator section allows more complex calculations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>How is the SAT scored?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>The SAT is scored on a scale of 400-1600. Math section: 200-800 points. Reading & Writing section: 200-800 points. There's no penalty for wrong answers, so you should answer every question.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" type="button">
+                            <span>When should I take the SAT?</span>
+                            <i data-feather="chevron-down"></i>
+                        </button>
+                        <div class="faq__answer">
+                            <p>Most students take the SAT junior year (11th grade) with an optional retake senior year. This allows time for preparation and gives you a backup date if you want to improve your score.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sources Section -->
+        <section class="sources">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Sources & References</h2>
+                    <p class="section__description">Our information is based on official data and research</p>
+                </div>
+                
+                <div class="sources__list">
+                    <div class="source__item">
+                        <h4 class="source__title">College Board Official Reports</h4>
+                        <p class="source__description">Annual SAT scores and performance data from the official test administrator</p>
+                        <a href="#" class="source__link">College Board SAT Annual Report 2024</a>
+                    </div>
+                    
+                    <div class="source__item">
+                        <h4 class="source__title">National Association for College Admission Counseling</h4>
+                        <p class="source__description">Research on standardized testing and college admissions trends</p>
+                        <a href="#" class="source__link">NACAC State of College Admission 2024</a>
+                    </div>
+                    
+                    <div class="source__item">
+                        <h4 class="source__title">Educational Testing Service Research</h4>
+                        <p class="source__description">Academic research on standardized test validity and effectiveness</p>
+                        <a href="#" class="source__link">ETS Research Reports</a>
+                    </div>
+                    
+                    <div class="source__item">
+                        <h4 class="source__title">University Admissions Data</h4>
+                        <p class="source__description">Direct admission requirements from top universities nationwide</p>
+                        <a href="#" class="source__link">Common Data Set Initiative</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="brand__title">SATPrep Excellence</h3>
+                    <p class="brand__description">Empowering students to achieve their academic dreams through comprehensive SAT preparation.</p>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Platform</h4>
+                        <ul class="footer__list">
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="universities.html">Universities</a></li>
+                            <li><a href="sat-info.html">SAT Information</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Support</h4>
+                        <ul class="footer__list">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="sat-info.html#faq">FAQ</a></li>
+                            <li><a href="contact.html#feedback">Feedback</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Legal</h4>
+                        <ul class="footer__list">
+                            <li><a href="#impressum">Impressum</a></li>
+                            <li><a href="#privacy">Data Privacy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 SATPrep Excellence. All rights reserved.</p>
+                <p>Contact: <a href="mailto:info@satprep-excellence.com">info@satprep-excellence.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script>
+        feather.replace();
+        
+        // FAQ Accordion functionality
+        document.querySelectorAll('.faq__question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isOpen = faqItem.classList.contains('active');
+                
+                // Close all FAQ items
+                document.querySelectorAll('.faq__item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Open clicked item if it wasn't already open
+                if (!isOpen) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+
+        // Initialize Charts
+        document.addEventListener('DOMContentLoaded', function() {
+            // Score Distribution Chart
+            const scoreCtx = document.getElementById('scoreDistributionChart').getContext('2d');
+            new Chart(scoreCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Below 1000', '1000-1200', '1200-1400', '1400+'],
+                    datasets: [{
+                        data: [25, 35, 25, 15],
+                        backgroundColor: ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        }
+                    }
+                }
+            });
+
+            // Section Performance Chart
+            const sectionCtx = document.getElementById('sectionPerformanceChart').getContext('2d');
+            new Chart(sectionCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Math', 'Reading & Writing'],
+                    datasets: [{
+                        label: 'Average Score',
+                        data: [528, 522],
+                        backgroundColor: ['#45B7D1', '#96CEB4'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 800
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

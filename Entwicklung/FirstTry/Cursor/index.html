@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Prep Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SAT Prep Platform</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="sat-info.html">SAT Info</a></li>
+                    <li><a href="universities.html">Universities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="updates">
+            <h2>Latest Updates</h2>
+            <div class="updates-list">
+                <!-- Updates will be dynamically loaded here -->
+            </div>
+        </section>
+        <section class="features-overview">
+            <h2>App Features</h2>
+            <div class="features-grid">
+                <!-- Feature cards will be dynamically loaded here -->
+            </div>
+        </section>
+        <section class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form id="newsletter-form">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        <section class="score-calculator">
+            <h2>SAT Score Calculator</h2>
+            <form id="score-form">
+                <label for="math">Math Score:</label>
+                <input type="number" id="math" name="math" min="200" max="800" required>
+                <label for="reading">Reading & Writing Score:</label>
+                <input type="number" id="reading" name="reading" min="200" max="800" required>
+                <button type="submit">Calculate Total</button>
+            </form>
+            <div id="score-result"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="impressum.html">Impressum</a> | <span>Data Privacy & Contact: info@satprep.com</span>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html> 

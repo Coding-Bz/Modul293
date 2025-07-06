@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universities - SATPrep Excellence</title>
+    <meta name="description" content="Explore universities that require SAT scores for admission, including minimum score requirements and admission details.">
+    
+    <!-- Swiss Design Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="universities.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h1 class="brand__title">SATPrep Excellence</h1>
+                <span class="brand__tagline">Master Your Future</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="features.html" class="nav__link">Features</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="universities.html" class="nav__link nav__link--active">Universities</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="sat-info.html" class="nav__link">SAT Info</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i data-feather="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Universities Requiring SAT</h1>
+                <p class="page-description">Explore top universities that require SAT scores for admission</p>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter__controls">
+                    <div class="filter__group">
+                        <label for="region-filter">Region</label>
+                        <select id="region-filter" class="filter__select">
+                            <option value="">All Regions</option>
+                            <option value="northeast">Northeast</option>
+                            <option value="southeast">Southeast</option>
+                            <option value="midwest">Midwest</option>
+                            <option value="southwest">Southwest</option>
+                            <option value="west">West Coast</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter__group">
+                        <label for="type-filter">University Type</label>
+                        <select id="type-filter" class="filter__select">
+                            <option value="">All Types</option>
+                            <option value="public">Public</option>
+                            <option value="private">Private</option>
+                            <option value="ivy">Ivy League</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter__group">
+                        <label for="score-filter">Min SAT Score</label>
+                        <select id="score-filter" class="filter__select">
+                            <option value="">Any Score</option>
+                            <option value="1200">1200+</option>
+                            <option value="1300">1300+</option>
+                            <option value="1400">1400+</option>
+                            <option value="1500">1500+</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter__group">
+                        <label for="search-filter">Search</label>
+                        <input type="text" id="search-filter" class="filter__input" placeholder="University name...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Universities Grid -->
+        <section class="universities">
+            <div class="container">
+                <div class="universities__grid" id="universities-grid">
+                    <!-- Harvard University -->
+                    <article class="university" data-region="northeast" data-type="ivy" data-score="1520">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/gecb8f047c5904fe78990a3523a86f23e013a52d39afb6e157e11be27d64a950770b62afbb7cf07cc8d4a8f48e52823206ce0945102a74405a0ac0068f57c8791_1280.jpg" alt="Harvard University">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">Harvard University</h3>
+                                <div class="university__tags">
+                                    <span class="tag tag--ivy">Ivy League</span>
+                                    <span class="tag">Private</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Cambridge, Massachusetts</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1520</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 3.4%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                One of the world's most prestigious universities, Harvard offers exceptional programs across all disciplines with renowned faculty and extensive research opportunities.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1520+ (required)</li>
+                                    <li>Subject Tests: Recommended</li>
+                                    <li>Essays: Required</li>
+                                    <li>Letters of Recommendation: 2-3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Stanford University -->
+                    <article class="university" data-region="west" data-type="private" data-score="1510">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/g0dee3355d7e11930a8771c29a6c9ad6ae3f20ca4ccbb5155936297461373d1913e95ba895e38daa5cc595d4577bdd763bec5498baa17862f63d2add522346335_1280.jpg" alt="Stanford University">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">Stanford University</h3>
+                                <div class="university__tags">
+                                    <span class="tag">Private</span>
+                                    <span class="tag">Research</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Stanford, California</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1510</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 3.9%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                Leading research university known for innovation and entrepreneurship, particularly strong in technology, engineering, and business programs.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1510+ (required)</li>
+                                    <li>Subject Tests: Optional</li>
+                                    <li>Essays: Required</li>
+                                    <li>Letters of Recommendation: 2</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- MIT -->
+                    <article class="university" data-region="northeast" data-type="private" data-score="1540">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/g0c6551a4eb5b29a97e399638c70ea665d353b08bb391d12e35848035a9ef07833ed680fb5f3e0ec52e5295eb24a4f54b7728308c6cbeb7c931a3686f94292ce9_1280.jpg" alt="MIT">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">Massachusetts Institute of Technology</h3>
+                                <div class="university__tags">
+                                    <span class="tag">Private</span>
+                                    <span class="tag">STEM</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Cambridge, Massachusetts</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1540</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 4.1%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                World-renowned for science, technology, engineering, and mathematics programs with cutting-edge research facilities and innovation labs.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1540+ (required)</li>
+                                    <li>Subject Tests: Math + Science (required)</li>
+                                    <li>Essays: Required</li>
+                                    <li>Letters of Recommendation: 2</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- UC Berkeley -->
+                    <article class="university" data-region="west" data-type="public" data-score="1420">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/g4bca487f4c52574c82a0ee8ffc36c3c2670a2a54ee35c1d71ee2cc34292d9c23554290c15327ab0472e16fa38611fe93b04ce99364b11e0bcd1dd12cb59557d8_1280.jpg" alt="UC Berkeley">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">University of California, Berkeley</h3>
+                                <div class="university__tags">
+                                    <span class="tag">Public</span>
+                                    <span class="tag">Research</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Berkeley, California</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1420</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 14.5%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                Top public research university with excellent programs in engineering, business, and liberal arts, known for academic excellence and social activism.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1420+ (required)</li>
+                                    <li>Subject Tests: Optional</li>
+                                    <li>Essays: Required (4 essays)</li>
+                                    <li>Letters of Recommendation: None required</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- University of Michigan -->
+                    <article class="university" data-region="midwest" data-type="public" data-score="1370">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/g1984ec1b24c3f0dbc646b34ac95cae1aa85f44ac2b61f46349b81c904a61e3293a47322ee1b94d881f16e335728ecede5f5ff5adfd8fc553bb8cbf0b2e3ff061_1280.jpg" alt="University of Michigan">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">University of Michigan</h3>
+                                <div class="university__tags">
+                                    <span class="tag">Public</span>
+                                    <span class="tag">Big Ten</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Ann Arbor, Michigan</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1370</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 20.2%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                Prestigious public research university with strong programs across all disciplines, excellent alumni network, and vibrant campus life.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1370+ (required)</li>
+                                    <li>Subject Tests: Optional</li>
+                                    <li>Essays: Required</li>
+                                    <li>Letters of Recommendation: 1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Duke University -->
+                    <article class="university" data-region="southeast" data-type="private" data-score="1510">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/g4c43fc5c5394f40620907a30ae6101910012bf8b4f163471e14c8ece3bf9fc7bb1b68d6b2115a1717c8a5786754945e8ccd04799500277392a8982a6c3469786_1280.jpg" alt="Duke University">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">Duke University</h3>
+                                <div class="university__tags">
+                                    <span class="tag">Private</span>
+                                    <span class="tag">Research</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Durham, North Carolina</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1510</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 6.2%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                Elite private research university known for academic excellence, strong athletics program, and beautiful Gothic Revival campus.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1510+ (required)</li>
+                                    <li>Subject Tests: Optional</li>
+                                    <li>Essays: Required</li>
+                                    <li>Letters of Recommendation: 2-3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Northwestern University -->
+                    <article class="university" data-region="midwest" data-type="private" data-score="1490">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/gf2df04d5113801c9e5a2ba97d32fab3962783d69c27fcdf5f383c662f55da4f7d707376dc727f30826953afcf0a62b4144a3b4ade7edd64d6a95534ba47ce136_1280.jpg" alt="Northwestern University">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">Northwestern University</h3>
+                                <div class="university__tags">
+                                    <span class="tag">Private</span>
+                                    <span class="tag">Big Ten</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Evanston, Illinois</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1490</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 7.0%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                Highly ranked private research university with strong programs in journalism, engineering, business, and performing arts.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1490+ (required)</li>
+                                    <li>Subject Tests: Optional</li>
+                                    <li>Essays: Required</li>
+                                    <li>Letters of Recommendation: 2</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Rice University -->
+                    <article class="university" data-region="southwest" data-type="private" data-score="1520">
+                        <div class="university__image">
+                            <img src="https://pixabay.com/get/gb99499d99e3a883fe99f3a9a5e5de4f1770fcb5049b37c9030bc9ed55ebed19f72e94e7b9b0fca8cdf267130841864f0c80a3f75503ab457ac2861398dec94a1_1280.jpg" alt="Rice University">
+                        </div>
+                        <div class="university__content">
+                            <div class="university__header">
+                                <h3 class="university__name">Rice University</h3>
+                                <div class="university__tags">
+                                    <span class="tag">Private</span>
+                                    <span class="tag">STEM</span>
+                                </div>
+                            </div>
+                            
+                            <div class="university__info">
+                                <div class="info__item">
+                                    <i data-feather="map-pin"></i>
+                                    <span>Houston, Texas</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="award"></i>
+                                    <span>Min SAT: 1520</span>
+                                </div>
+                                <div class="info__item">
+                                    <i data-feather="users"></i>
+                                    <span>Acceptance Rate: 8.7%</span>
+                                </div>
+                            </div>
+                            
+                            <p class="university__description">
+                                Small, highly selective research university known for excellent STEM programs, tight-knit community, and unique residential college system.
+                            </p>
+                            
+                            <div class="university__requirements">
+                                <h4>Admission Requirements:</h4>
+                                <ul>
+                                    <li>SAT: 1520+ (required)</li>
+                                    <li>Subject Tests: Recommended for STEM</li>
+                                    <li>Essays: Required</li>
+                                    <li>Letters of Recommendation: 2</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="universities__actions">
+                    <button class="btn btn--secondary" id="load-more">
+                        <i data-feather="plus"></i>
+                        Load More Universities
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="brand__title">SATPrep Excellence</h3>
+                    <p class="brand__description">Empowering students to achieve their academic dreams through comprehensive SAT preparation.</p>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Platform</h4>
+                        <ul class="footer__list">
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="universities.html">Universities</a></li>
+                            <li><a href="sat-info.html">SAT Information</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Support</h4>
+                        <ul class="footer__list">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="sat-info.html#faq">FAQ</a></li>
+                            <li><a href="contact.html#feedback">Feedback</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Legal</h4>
+                        <ul class="footer__list">
+                            <li><a href="#impressum">Impressum</a></li>
+                            <li><a href="#privacy">Data Privacy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 SATPrep Excellence. All rights reserved.</p>
+                <p>Contact: <a href="mailto:info@satprep-excellence.com">info@satprep-excellence.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="filter.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

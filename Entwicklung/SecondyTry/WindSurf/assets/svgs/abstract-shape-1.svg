@@ -1,0 +1,5 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M200 0L250 150H150L200 0Z" fill="var(--accent-color)" fill-opacity="0.05"/>
+<path d="M200 400L150 250H250L200 400Z" fill="var(--accent-color)" fill-opacity="0.05"/>
+<circle cx="200" cy="200" r="50" fill="var(--primary-color)" fill-opacity="0.03"/>
+</svg>

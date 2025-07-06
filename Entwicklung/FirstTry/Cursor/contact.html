@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | SAT Prep</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact & Team</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="sat-info.html">SAT Info</a></li>
+                    <li><a href="universities.html">Universities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-form-section">
+            <h2>Contact Form</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <select name="subject" required>
+                    <option value="">Select Subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="partnership">Partnership</option>
+                </select>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section class="feedback-form-section">
+            <h2>Feedback</h2>
+            <form id="feedback-form">
+                <input type="text" name="name" placeholder="Your Name (optional)">
+                <textarea name="feedback" placeholder="Your Feedback" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+        <section class="team-section">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="img/team1.jpg" alt="Team Member 1">
+                    <h3>Alex Johnson</h3>
+                    <p>Founder & SAT Expert</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team2.jpg" alt="Team Member 2">
+                    <h3>Maria Smith</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team3.jpg" alt="Team Member 3">
+                    <h3>Chris Lee</h3>
+                    <p>Content Manager</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="impressum.html">Impressum</a> | <span>Data Privacy & Contact: info@satprep.com</span>
+        </div>
+    </footer>
+    <script src="js/contact.js"></script>
+</body>
+</html> 

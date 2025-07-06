@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universities - SAT Prep & University Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">SAT Prep</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="universities.html" class="active">Universities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Find Your Perfect University</h1>
+                <p>Explore universities that require SAT scores</p>
+            </div>
+        </section>
+
+        <!-- University Filters -->
+        <section class="university-filters">
+            <div class="filter-group">
+                <div class="filter-input">
+                    <input type="text" id="search" placeholder="Search universities...">
+                </div>
+                <div class="filter-selects">
+                    <select id="location">
+                        <option value="all">All Locations</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">UK</option>
+                    </select>
+                    <select id="score">
+                        <option value="all">Score Range</option>
+                        <option value="1200-1400">1200-1400</option>
+                        <option value="1400-1600">1400-1600</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- University Grid -->
+        <section class="university-grid">
+            <div class="university-card" data-location="usa" data-score="1400-1600">
+                <div class="university-header">
+                    <img src="https://source.unsplash.com/800x600/?harvard" alt="Harvard University">
+                    <h3>Harvard University</h3>
+                </div>
+                <div class="university-info">
+                    <p>Location: Cambridge, MA</p>
+                    <p>Required Score: 1500+</p>
+                    <p>Acceptance Rate: 5%</p>
+                </div>
+                <div class="university-details">
+                    <h4>Overview</h4>
+                    <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. It is the oldest institution of higher learning in the United States.</p>
+                    <a href="#" class="primary-btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="university-card" data-location="usa" data-score="1400-1600">
+                <div class="university-header">
+                    <img src="https://source.unsplash.com/800x600/?stanford" alt="Stanford University">
+                    <h3>Stanford University</h3>
+                </div>
+                <div class="university-info">
+                    <p>Location: Stanford, CA</p>
+                    <p>Required Score: 1450+</p>
+                    <p>Acceptance Rate: 4%</p>
+                </div>
+                <div class="university-details">
+                    <h4>Overview</h4>
+                    <p>Stanford University is a private research university in Stanford, California. It is renowned for its engineering, computer science, and business programs.</p>
+                    <a href="#" class="primary-btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="university-card" data-location="uk" data-score="1200-1400">
+                <div class="university-header">
+                    <img src="https://source.unsplash.com/800x600/?oxford" alt="University of Oxford">
+                    <h3>University of Oxford</h3>
+                </div>
+                <div class="university-info">
+                    <p>Location: Oxford, UK</p>
+                    <p>Required Score: 1300+</p>
+                    <p>Acceptance Rate: 18%</p>
+                </div>
+                <div class="university-details">
+                    <h4>Overview</h4>
+                    <p>The University of Oxford is a collegiate research university in Oxford, England. It is the world's second-oldest university in continuous operation.</p>
+                    <a href="#" class="primary-btn">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Add more university cards as needed -->
+        </section>
+
+        <!-- Statistics -->
+        <section class="university-stats">
+            <h2>University Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Universities</h3>
+                    <p>100+</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Locations</h3>
+                    <p>15 Countries</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Success Rate</h3>
+                    <p>95%</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Preparing students for SAT success since 2025</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="universities.html">Universities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@sattestprep.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SAT Prep. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

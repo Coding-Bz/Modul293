@@ -1,0 +1,18 @@
+/* Styles for the feature detail page */
+main .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.feature-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.feature-content img, .feature-content video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Score Calculator - Predict Your SAT Score | SATPrep Pro</title>
+    <meta name="description" content="Calculate your potential SAT score based on practice test performance. Get detailed score breakdowns, percentiles, and personalized improvement suggestions.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">SATPrep Pro</div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="features.html" class="nav-link">Features</a></li>
+                        <li><a href="sat-info.html" class="nav-link">SAT Info</a></li>
+                        <li><a href="unis.html" class="nav-link">Universities</a></li>
+                        <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="calculator.html" class="nav-cta">Try Calculator</a></li>
+                    </ul>
+                    
+                    <button class="mobile-menu-toggle">☰</button>
+                </nav>
+                
+                <div class="mobile-nav">
+                    <ul class="mobile-nav-list">
+                        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                        <li><a href="features.html" class="mobile-nav-link">Features</a></li>
+                        <li><a href="sat-info.html" class="mobile-nav-link">SAT Info</a></li>
+                        <li><a href="unis.html" class="mobile-nav-link">Universities</a></li>
+                        <li><a href="calculator.html" class="mobile-nav-link">Calculator</a></li>
+                        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="calculator-hero">
+        <div class="container">
+            <div class="calculator-hero-content fade-in">
+                <h1>SAT Score Calculator</h1>
+                <p class="hero-subtitle">Get an accurate prediction of your SAT score based on your practice test performance. Receive detailed insights and personalized improvement recommendations.</p>
+                
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <div class="hero-feature-icon">🎯</div>
+                        <div class="hero-feature-text">Accurate Predictions</div>
+                    </div>
+                    <div class="hero-feature">
+                        <div class="hero-feature-icon">📊</div>
+                        <div class="hero-feature-text">Detailed Breakdown</div>
+                    </div>
+                    <div class="hero-feature">
+                        <div class="hero-feature-icon">💡</div>
+                        <div class="hero-feature-text">Improvement Tips</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Background shapes -->
+        <div class="calc-hero-bg">
+            <div class="calc-shape calc-shape-1"></div>
+            <div class="calc-shape calc-shape-2"></div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator-section">
+        <div class="container">
+            <div class="calculator-container">
+                <div class="calculator-layout">
+                    <!-- Calculator Form -->
+                    <div class="calculator-form">
+                        <div class="calculator-header">
+                            <h2>Enter Your Scores</h2>
+                            <p>Input the number of questions you answered correctly in each section of your practice test.</p>
+                        </div>
+                        
+                        <form id="calculatorForm">
+                            <!-- Math Section -->
+                            <div class="calc-form-section">
+                                <h3><span class="section-icon">📊</span> Math Section</h3>
+                                <div class="calc-form-row">
+                                    <div class="calc-form-group">
+                                        <label for="mathCorrect" class="calc-label">Questions Correct <span class="required">*</span></label>
+                                        <input type="number" id="mathCorrect" name="mathCorrect" class="calc-input" min="0" max="58" placeholder="0" required>
+                                        <div class="input-hint">Out of 58 total questions</div>
+                                    </div>
+                                    <div class="calc-form-group">
+                                        <label class="calc-label">Total Questions</label>
+                                        <input type="text" value="58" class="calc-input" disabled>
+                                        <div class="input-hint">70 minutes test duration</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Reading Section -->
+                            <div class="calc-form-section">
+                                <h3><span class="section-icon">📚</span> Reading Section</h3>
+                                <div class="calc-form-row">
+                                    <div class="calc-form-group">
+                                        <label for="readingCorrect" class="calc-label">Questions Correct <span class="required">*</span></label>
+                                        <input type="number" id="readingCorrect" name="readingCorrect" class="calc-input" min="0" max="52" placeholder="0" required>
+                                        <div class="input-hint">Out of 52 total questions</div>
+                                    </div>
+                                    <div class="calc-form-group">
+                                        <label class="calc-label">Total Questions</label>
+                                        <input type="text" value="52" class="calc-input" disabled>
+                                        <div class="input-hint">32 minutes test duration</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Writing Section -->
+                            <div class="calc-form-section">
+                                <h3><span class="section-icon">✍️</span> Writing and Language Section</h3>
+                                <div class="calc-form-row">
+                                    <div class="calc-form-group">
+                                        <label for="writingCorrect" class="calc-label">Questions Correct <span class="required">*</span></label>
+                                        <input type="number" id="writingCorrect" name="writingCorrect" class="calc-input" min="0" max="44" placeholder="0" required>
+                                        <div class="input-hint">Out of 44 total questions</div>
+                                    </div>
+                                    <div class="calc-form-group">
+                                        <label class="calc-label">Total Questions</label>
+                                        <input type="text" value="44" class="calc-input" disabled>
+                                        <div class="input-hint">32 minutes test duration</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="calc-button">
+                                Calculate My Score
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- Results Panel -->
+                    <div class="results-panel">
+                        <div class="results-header">
+                            <h2>Your SAT Score</h2>
+                        </div>
+                        
+                        <!-- Placeholder State -->
+                        <div class="results-placeholder">
+                            <div class="results-placeholder-icon">📊</div>
+                            <h3>Ready to Calculate</h3>
+                            <p>Enter your practice test scores on the left to see your predicted SAT score, detailed breakdown, and improvement suggestions.</p>
+                        </div>
+                        
+                        <!-- Results Content -->
+                        <div class="results-content">
+                            <!-- Total Score Display -->
+                            <div class="score-display">
+                                <div class="total-score">0</div>
+                                <div class="score-label">Total SAT Score</div>
+                                <div class="score-range">Range: 400-1600</div>
+                            </div>
+                            
+                            <!-- Section Scores -->
+                            <div class="section-scores">
+                                <div class="section-score math-score">
+                                    <div class="section-score-value">0</div>
+                                    <div class="section-score-label">Math</div>
+                                </div>
+                                <div class="section-score verbal-score">
+                                    <div class="section-score-value">0</div>
+                                    <div class="section-score-label">Reading & Writing</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Score Breakdown -->
+                            <div class="score-breakdown">
+                                <!-- Content will be dynamically inserted -->
+                            </div>
+                            
+                            <!-- Percentile Information -->
+                            <div class="percentile-info">
+                                <h3>Percentile Ranking</h3>
+                                <div class="percentile-value">0th percentile</div>
+                                <div class="percentile-description">You scored higher than 0% of test takers.</div>
+                            </div>
+                            
+                            <!-- Improvement Suggestions -->
+                            <div class="improvement-suggestions">
+                                <!-- Content will be dynamically inserted -->
+                            </div>
+                            
+                            <!-- Action Buttons -->
+                            <div class="results-actions">
+                                <!-- Content will be dynamically inserted -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Information -->
+    <section class="calculator-info">
+        <div class="container">
+            <div class="info-header fade-in">
+                <h2>How Our Calculator Works</h2>
+                <p>Our SAT score calculator uses official College Board scoring guidelines to provide accurate score predictions.</p>
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-card fade-in">
+                    <h3>Accurate Scoring Algorithm</h3>
+                    <p>Based on official SAT scoring tables and statistical analysis of thousands of practice tests.</p>
+                    <ul class="info-list">
+                        <li>Uses official College Board scoring curves</li>
+                        <li>Accounts for section-specific scaling</li>
+                        <li>Includes percentile calculations</li>
+                        <li>Provides confidence intervals</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card fade-in">
+                    <h3>Detailed Insights</h3>
+                    <p>Get comprehensive analysis of your performance across all SAT sections and question types.</p>
+                    <ul class="info-list">
+                        <li>Section-by-section breakdown</li>
+                        <li>Percentile ranking information</li>
+                        <li>Strength and weakness identification</li>
+                        <li>Improvement recommendations</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card fade-in">
+                    <h3>Actionable Recommendations</h3>
+                    <p>Receive personalized study suggestions based on your calculated score and performance patterns.</p>
+                    <ul class="info-list">
+                        <li>Targeted study area recommendations</li>
+                        <li>Time management strategies</li>
+                        <li>Resource suggestions</li>
+                        <li>Score improvement timeline</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Tips -->
+    <section class="calculator-tips">
+        <div class="container">
+            <div class="tips-header fade-in">
+                <h2>Tips for Accurate Results</h2>
+                <p>Follow these guidelines to get the most accurate score prediction from our calculator.</p>
+            </div>
+            
+            <div class="tips-grid">
+                <div class="tip-card fade-in">
+                    <div class="tip-number">1</div>
+                    <h4>Use Official Practice Tests</h4>
+                    <p>Enter scores from official College Board practice tests for the most accurate predictions.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-number">2</div>
+                    <h4>Take Tests Under Timed Conditions</h4>
+                    <p>Simulate real test conditions including time limits and breaks for realistic scoring.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-number">3</div>
+                    <h4>Count Only Correct Answers</h4>
+                    <p>The SAT doesn't penalize incorrect answers, so only count questions you answered correctly.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-number">4</div>
+                    <h4>Review Your Mistakes</h4>
+                    <p>Use the improvement suggestions to focus your study efforts on areas that need the most work.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-number">5</div>
+                    <h4>Track Your Progress</h4>
+                    <p>Save your results and retake the calculator regularly to monitor your improvement over time.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-number">6</div>
+                    <h4>Consider Multiple Tests</h4>
+                    <p>Take several practice tests and average the results for a more reliable score prediction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SATPrep Pro</h4>
+                    <p>The ultimate SAT preparation platform designed to help students achieve their dream scores and get into their target universities.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="calculator.html">Score Calculator</a></li>
+                        <li><a href="sat-info.html">SAT Information</a></li>
+                        <li><a href="unis.html">University Directory</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Study Tips</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SATPrep Pro. All rights reserved. | Email: support@satpreppro.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/global.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>

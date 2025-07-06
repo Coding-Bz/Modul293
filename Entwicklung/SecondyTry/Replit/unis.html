@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Directory - Find Your Perfect Match | SATPrep Pro</title>
+    <meta name="description" content="Discover universities that match your SAT scores and academic interests. Search and filter through comprehensive university profiles and admission requirements.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/unis.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">SATPrep Pro</div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="features.html" class="nav-link">Features</a></li>
+                        <li><a href="sat-info.html" class="nav-link">SAT Info</a></li>
+                        <li><a href="unis.html" class="nav-link">Universities</a></li>
+                        <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="calculator.html" class="nav-cta">Try Calculator</a></li>
+                    </ul>
+                    
+                    <button class="mobile-menu-toggle">☰</button>
+                </nav>
+                
+                <div class="mobile-nav">
+                    <ul class="mobile-nav-list">
+                        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                        <li><a href="features.html" class="mobile-nav-link">Features</a></li>
+                        <li><a href="sat-info.html" class="mobile-nav-link">SAT Info</a></li>
+                        <li><a href="unis.html" class="mobile-nav-link">Universities</a></li>
+                        <li><a href="calculator.html" class="mobile-nav-link">Calculator</a></li>
+                        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="unis-hero">
+        <div class="container">
+            <div class="unis-hero-content fade-in">
+                <h1>Find Your Perfect University</h1>
+                <p class="hero-subtitle">Discover universities that match your SAT scores, academic interests, and career goals. Explore comprehensive profiles with admission requirements, campus life, and program details.</p>
+                
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">2,500+</div>
+                        <div class="hero-stat-label">Universities</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">50</div>
+                        <div class="hero-stat-label">States</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">100+</div>
+                        <div class="hero-stat-label">Majors</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filter Section -->
+    <section class="search-filter-section">
+        <div class="container">
+            <div class="search-filter-container fade-in">
+                <div class="search-group">
+                    <div class="search-input-container">
+                        <input type="text" class="search-input" id="universitySearch" placeholder="Search universities by name, location, or major...">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    <div class="filter-controls">
+                        <select class="filter-select" id="stateFilter">
+                            <option value="">All States</option>
+                            <option value="CA">California</option>
+                            <option value="NY">New York</option>
+                            <option value="TX">Texas</option>
+                            <option value="FL">Florida</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="IL">Illinois</option>
+                            <option value="OH">Ohio</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="GA">Georgia</option>
+                        </select>
+                        
+                        <select class="filter-select" id="scoreFilter">
+                            <option value="">Any SAT Score</option>
+                            <option value="1400+">1400+ (Highly Competitive)</option>
+                            <option value="1200-1399">1200-1399 (Competitive)</option>
+                            <option value="1000-1199">1000-1199 (Moderate)</option>
+                            <option value="800-999">800-999 (Less Competitive)</option>
+                        </select>
+                        
+                        <select class="filter-select" id="typeFilter">
+                            <option value="">All Types</option>
+                            <option value="public">Public</option>
+                            <option value="private">Private</option>
+                            <option value="liberal-arts">Liberal Arts</option>
+                            <option value="research">Research University</option>
+                        </select>
+                        
+                        <div class="view-toggle">
+                            <button class="view-btn active" data-view="grid" title="Grid View">⊞</button>
+                            <button class="view-btn" data-view="list" title="List View">☰</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="results-info">
+                    <span id="resultCount">Loading universities...</span>
+                    <button class="clear-filters" id="clearFilters">Clear Filters</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Universities Grid -->
+    <section class="unis-grid-section">
+        <div class="container">
+            <!-- Loading State -->
+            <div class="loading-state" id="loadingState">
+                <div class="loading-spinner"></div>
+                <p>Loading universities...</p>
+            </div>
+            
+            <!-- Empty State -->
+            <div class="empty-state hidden" id="emptyState">
+                <h3>No universities found</h3>
+                <p>Try adjusting your search criteria or filters to find more options.</p>
+                <button class="btn btn-primary" onclick="uniDirectory.clearAllFilters()">Reset Search</button>
+            </div>
+            
+            <!-- Universities Grid -->
+            <div class="unis-grid" id="universitiesGrid">
+                <!-- Universities will be dynamically loaded here -->
+            </div>
+            
+            <!-- Universities List -->
+            <div class="unis-list hidden" id="universitiesList">
+                <!-- Universities will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section class="pagination-section hidden" id="paginationSection">
+        <div class="container">
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SATPrep Pro</h4>
+                    <p>The ultimate SAT preparation platform designed to help students achieve their dream scores and get into their target universities.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="calculator.html">Score Calculator</a></li>
+                        <li><a href="sat-info.html">SAT Information</a></li>
+                        <li><a href="unis.html">University Directory</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Study Tips</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SATPrep Pro. All rights reserved. | Email: support@satpreppro.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/global.js"></script>
+    <script src="js/unis.js"></script>
+</body>
+</html>

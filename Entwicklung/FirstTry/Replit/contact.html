@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SATPrep Excellence</title>
+    <meta name="description" content="Contact our team for SAT preparation support, feedback, and inquiries.">
+    
+    <!-- Swiss Design Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h1 class="brand__title">SATPrep Excellence</h1>
+                <span class="brand__tagline">Master Your Future</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="features.html" class="nav__link">Features</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="universities.html" class="nav__link">Universities</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="sat-info.html" class="nav__link">SAT Info</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i data-feather="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Contact Us</h1>
+                <p class="page-description">Get in touch with our team for support and inquiries</p>
+            </div>
+        </section>
+
+        <!-- Contact Forms -->
+        <section class="contact-forms">
+            <div class="container">
+                <div class="forms__grid">
+                    <!-- Contact Form -->
+                    <div class="form__container">
+                        <div class="form__header">
+                            <h2 class="form__title">Send us a Message</h2>
+                            <p class="form__description">Have questions? We're here to help with your SAT preparation journey.</p>
+                        </div>
+                        
+                        <form class="contact__form" id="contact-form">
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" id="first-name" name="firstName" required>
+                                </div>
+                                
+                                <div class="form__group">
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" id="last-name" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="billing">Billing & Payment</option>
+                                    <option value="tutoring">Tutoring Services</option>
+                                    <option value="partnership">Partnership Opportunities</option>
+                                    <option value="media">Media & Press</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary">
+                                <i data-feather="send"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Feedback Form -->
+                    <div class="form__container" id="feedback">
+                        <div class="form__header">
+                            <h2 class="form__title">Share Your Feedback</h2>
+                            <p class="form__description">Help us improve by sharing your experience and suggestions.</p>
+                        </div>
+                        
+                        <form class="feedback__form" id="feedback-form">
+                            <div class="form__group">
+                                <label for="feedback-name">Name (Optional)</label>
+                                <input type="text" id="feedback-name" name="name">
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="feedback-email">Email (Optional)</label>
+                                <input type="email" id="feedback-email" name="email">
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="feedback-type">Feedback Type</label>
+                                <select id="feedback-type" name="feedbackType" required>
+                                    <option value="">Select feedback type</option>
+                                    <option value="suggestion">Suggestion</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="compliment">Compliment</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="feature">Feature Request</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="rating">Overall Experience</label>
+                                <div class="rating__container">
+                                    <div class="rating__stars" id="rating-stars">
+                                        <button type="button" class="star" data-rating="1">
+                                            <i data-feather="star"></i>
+                                        </button>
+                                        <button type="button" class="star" data-rating="2">
+                                            <i data-feather="star"></i>
+                                        </button>
+                                        <button type="button" class="star" data-rating="3">
+                                            <i data-feather="star"></i>
+                                        </button>
+                                        <button type="button" class="star" data-rating="4">
+                                            <i data-feather="star"></i>
+                                        </button>
+                                        <button type="button" class="star" data-rating="5">
+                                            <i data-feather="star"></i>
+                                        </button>
+                                    </div>
+                                    <input type="hidden" id="rating" name="rating" value="">
+                                </div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="feedback-message">Your Feedback</label>
+                                <textarea id="feedback-message" name="message" rows="6" required placeholder="Share your thoughts and suggestions..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--secondary">
+                                <i data-feather="message-circle"></i>
+                                Submit Feedback
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Meet Our Team</h2>
+                    <p class="section__description">The experts behind SATPrep Excellence</p>
+                </div>
+                
+                <div class="team__grid">
+                    <div class="team__member">
+                        <div class="member__image">
+                            <img src="https://pixabay.com/get/gca3620be3ccc0e4af09c21931bcd1ebd6979422e8da3a19bc359783ddd378a571b27afa18d4afad3a62ce0dbb613b4c85513367ff00952fd3e31de1a49a5e778_1280.jpg" alt="Dr. Sarah Chen">
+                        </div>
+                        <div class="member__content">
+                            <h3 class="member__name">Dr. Sarah Chen</h3>
+                            <p class="member__role">Founder & CEO</p>
+                            <p class="member__bio">
+                                Former SAT test developer with 15+ years in educational technology. PhD in Educational Psychology from Stanford.
+                            </p>
+                            <div class="member__contact">
+                                <a href="mailto:sarah@satprep-excellence.com">
+                                    <i data-feather="mail"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i data-feather="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team__member">
+                        <div class="member__image">
+                            <img src="https://pixabay.com/get/g5c5131866adfaecbd9a645127c93d49b0711b77cacd849911914f6fe5e5851cda249bbbb88d52fb22ccc35f7fd2c926ac57f1a558bef4af78716c44e6069c456_1280.jpg" alt="Michael Rodriguez">
+                        </div>
+                        <div class="member__content">
+                            <h3 class="member__name">Michael Rodriguez</h3>
+                            <p class="member__role">Head of Curriculum</p>
+                            <p class="member__bio">
+                                Certified SAT instructor and curriculum developer. Former high school math teacher with perfect SAT score.
+                            </p>
+                            <div class="member__contact">
+                                <a href="mailto:michael@satprep-excellence.com">
+                                    <i data-feather="mail"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i data-feather="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team__member">
+                        <div class="member__image">
+                            <img src="https://pixabay.com/get/gde29a837bf7480ec9aac764894c73a9f4d53e68afb7476c9c28a9decac8daf0f5e9409e64a03a1d5e88720b3b917b6b5d6c2a8a56678a8b2aee40f62bc3d6e5a_1280.jpg" alt="Emily Johnson">
+                        </div>
+                        <div class="member__content">
+                            <h3 class="member__name">Emily Johnson</h3>
+                            <p class="member__role">Student Success Manager</p>
+                            <p class="member__bio">
+                                Dedicated to student outcomes with background in academic counseling and college admissions consulting.
+                            </p>
+                            <div class="member__contact">
+                                <a href="mailto:emily@satprep-excellence.com">
+                                    <i data-feather="mail"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i data-feather="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team__member">
+                        <div class="member__image">
+                            <img src="https://pixabay.com/get/g42519f0aa941a14981354ac96cf1845312eee25fed1724ec67ac921e061cccea8655245777110033eb5994d520bba955ef63557cb5bf9322bc4c5fbfb297bf95_1280.jpg" alt="David Kim">
+                        </div>
+                        <div class="member__content">
+                            <h3 class="member__name">David Kim</h3>
+                            <p class="member__role">Technical Director</p>
+                            <p class="member__bio">
+                                Full-stack developer and AI specialist focused on creating adaptive learning technologies for personalized education.
+                            </p>
+                            <div class="member__contact">
+                                <a href="mailto:david@satprep-excellence.com">
+                                    <i data-feather="mail"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i data-feather="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i data-feather="mail"></i>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Email</h3>
+                            <p class="contact__text">info@satprep-excellence.com</p>
+                            <p class="contact__text">support@satprep-excellence.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i data-feather="phone"></i>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Phone</h3>
+                            <p class="contact__text">+1 (555) 123-4567</p>
+                            <p class="contact__text">Mon-Fri, 9 AM - 6 PM EST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i data-feather="map-pin"></i>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Address</h3>
+                            <p class="contact__text">123 Education Street</p>
+                            <p class="contact__text">Boston, MA 02101, USA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i data-feather="clock"></i>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Response Time</h3>
+                            <p class="contact__text">Within 24 hours</p>
+                            <p class="contact__text">Urgent: Within 4 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="brand__title">SATPrep Excellence</h3>
+                    <p class="brand__description">Empowering students to achieve their academic dreams through comprehensive SAT preparation.</p>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Platform</h4>
+                        <ul class="footer__list">
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="universities.html">Universities</a></li>
+                            <li><a href="sat-info.html">SAT Information</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Support</h4>
+                        <ul class="footer__list">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="sat-info.html#faq">FAQ</a></li>
+                            <li><a href="contact.html#feedback">Feedback</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Legal</h4>
+                        <ul class="footer__list">
+                            <li><a href="#impressum">Impressum</a></li>
+                            <li><a href="#privacy">Data Privacy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 SATPrep Excellence. All rights reserved.</p>
+                <p>Contact: <a href="mailto:info@satprep-excellence.com">info@satprep-excellence.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="forms.js"></script>
+    <script>
+        feather.replace();
+        
+        // Star rating functionality
+        const stars = document.querySelectorAll('.star');
+        const ratingInput = document.getElementById('rating');
+        
+        stars.forEach(star => {
+            star.addEventListener('click', () => {
+                const rating = star.dataset.rating;
+                ratingInput.value = rating;
+                
+                // Update star appearance
+                stars.forEach((s, index) => {
+                    if (index < rating) {
+                        s.classList.add('active');
+                    } else {
+                        s.classList.remove('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

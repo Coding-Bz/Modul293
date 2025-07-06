@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features | SAT Prep</title>
+    <link rel="stylesheet" href="features.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>App Features</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="sat-info.html">SAT Info</a></li>
+                    <li><a href="universities.html">Universities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="filters">
+            <h2>Filter Features</h2>
+            <form id="feature-filter">
+                <select name="subject" id="subject">
+                    <option value="">All Subjects</option>
+                    <option value="math">Math</option>
+                    <option value="reading">Reading</option>
+                    <option value="writing">Writing</option>
+                </select>
+                <select name="language" id="language">
+                    <option value="">All Languages</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                </select>
+                <button type="submit">Filter</button>
+            </form>
+        </section>
+        <section class="features-list">
+            <div class="features-grid">
+                <!-- Feature cards will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="impressum.html">Impressum</a> | <span>Data Privacy & Contact: info@satprep.com</span>
+        </div>
+    </footer>
+    <script src="js/features.js"></script>
+</body>
+</html> 

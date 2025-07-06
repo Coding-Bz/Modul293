@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAT Score Calculator – SAT App</title>
+  <link rel="stylesheet" href="css/calculator.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="sticky-header">
+    <nav>
+      <div class="logo">SAT App</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="sat-info.html">SAT Info</a></li>
+        <li><a href="unis.html">Universities</a></li>
+        <li><a href="calculator.html">Score Calculator</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="grid-container">
+    <section class="calculator-header">
+      <h1>SAT Score Calculator</h1>
+      <p>Calculate your estimated SAT score based on your practice test results.</p>
+    </section>
+    <section class="calculator-form">
+      <h2>Enter Your Scores</h2>
+      <form id="sat-calculator">
+        <div class="section-group">
+          <h3>Evidence-Based Reading & Writing</h3>
+          <div class="score-inputs">
+            <div class="form-group">
+              <label for="reading-correct">Reading Questions Correct</label>
+              <input type="number" id="reading-correct" min="0" max="52" required>
+              <span class="max-score">/ 52</span>
+            </div>
+            <div class="form-group">
+              <label for="writing-correct">Writing Questions Correct</label>
+              <input type="number" id="writing-correct" min="0" max="44" required>
+              <span class="max-score">/ 44</span>
+            </div>
+          </div>
+        </div>
+        <div class="section-group">
+          <h3>Math</h3>
+          <div class="score-inputs">
+            <div class="form-group">
+              <label for="math-correct">Math Questions Correct</label>
+              <input type="number" id="math-correct" min="0" max="58" required>
+              <span class="max-score">/ 58</span>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Calculate Score</button>
+      </form>
+    </section>
+    <section class="calculator-results" id="results-section" style="display: none;">
+      <h2>Your Estimated SAT Score</h2>
+      <div class="score-display">
+        <div class="total-score">
+          <span class="score-value" id="total-score">0</span>
+          <span class="score-label">Total Score</span>
+        </div>
+        <div class="section-scores">
+          <div class="section-score">
+            <span class="score-value" id="ebrw-score">0</span>
+            <span class="score-label">EBRW</span>
+          </div>
+          <div class="section-score">
+            <span class="score-value" id="math-score">0</span>
+            <span class="score-label">Math</span>
+          </div>
+        </div>
+      </div>
+      <div class="score-analysis">
+        <h3>Score Analysis</h3>
+        <p id="score-analysis-text">Your score analysis will appear here.</p>
+      </div>
+    </section>
+    <section class="abstract-accent"></section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <span>&copy; 2024 SAT App. All rights reserved.</span>
+      <a href="#">Privacy Policy</a>
+      <a href="mailto:info@satapp.com">info@satapp.com</a>
+      <div class="social-links"></div>
+    </div>
+  </footer>
+  <script src="js/calculator.js"></script>
+</body>
+</html> 

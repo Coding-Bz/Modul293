@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universities – SAT App</title>
+  <link rel="stylesheet" href="css/unis.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="sticky-header">
+    <nav>
+      <div class="logo">SAT App</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="sat-info.html">SAT Info</a></li>
+        <li><a href="unis.html">Universities</a></li>
+        <li><a href="calculator.html">Score Calculator</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="grid-container">
+    <section class="unis-header">
+      <h1>University Directory</h1>
+      <p>Find universities that require SAT scores and match your academic profile.</p>
+    </section>
+    <section class="unis-filters">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search universities...">
+      </div>
+      <div class="filter-controls">
+        <select id="country-filter">
+          <option value="">All Countries</option>
+          <option value="USA">United States</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">United Kingdom</option>
+          <option value="Australia">Australia</option>
+        </select>
+        <select id="score-filter">
+          <option value="">All SAT Scores</option>
+          <option value="1200-1400">1200-1400</option>
+          <option value="1400-1600">1400-1600</option>
+          <option value="1600+">1600+</option>
+        </select>
+        <select id="study-filter">
+          <option value="">All Study Areas</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Business">Business</option>
+          <option value="Arts">Arts & Humanities</option>
+          <option value="Sciences">Sciences</option>
+        </select>
+      </div>
+    </section>
+    <section class="unis-grid" id="unis-grid">
+      <!-- University cards will be rendered here by JS -->
+    </section>
+    <section class="abstract-accent"></section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <span>&copy; 2024 SAT App. All rights reserved.</span>
+      <a href="#">Privacy Policy</a>
+      <a href="mailto:info@satapp.com">info@satapp.com</a>
+      <div class="social-links"></div>
+    </div>
+  </footer>
+  <script src="js/unis.js"></script>
+</body>
+</html> 

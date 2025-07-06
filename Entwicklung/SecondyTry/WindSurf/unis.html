@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Directory - SAT Prep App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unis.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav class="container">
+            <a href="index.html" class="logo">SATApp</a>
+            <ul>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="sat-info.html">SAT Info</a></li>
+                <li><a href="unis.html">Universities</a></li>
+                <li><a href="calculator.html">Score Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>University Directory</h1>
+            <p>Find universities that accept the SAT.</p>
+            <div class="uni-filters">
+                <select id="country-filter">
+                    <option value="all">All Countries</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Canada">Canada</option>
+                </select>
+                <input type="range" id="score-filter" min="1000" max="1600" value="1000" step="10">
+                <span id="score-value">Min SAT: 1000</span>
+            </div>
+
+            <div class="uni-list">
+                <!-- University items will be dynamically inserted here by JS -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SATApp. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="mailto:support@satapp.com">support@satapp.com</a></p>
+        </div>
+    </footer>
+
+    <script src="js/unis.js"></script>
+</body>
+</html>

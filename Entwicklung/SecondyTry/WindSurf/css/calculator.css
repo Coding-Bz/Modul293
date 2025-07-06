@@ -1,0 +1,85 @@
+/* Styles for the SAT Score Calculator */
+
+.calculator-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.form-section {
+    margin-bottom: 2rem;
+}
+
+.form-section h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#results-container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#results-container.results-hidden {
+    display: none;
+}
+
+.total-score-display #total-score {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.total-score-display p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.section-scores-display {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.section-scores-display div {
+    text-align: center;
+}
+
+.section-scores-display span {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.section-scores-display p {
+    margin-top: 0.25rem;
+    color: #555;
+}

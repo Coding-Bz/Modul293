@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Get Support & Connect | SATPrep Pro</title>
+    <meta name="description" content="Get in touch with our SAT prep experts, meet our team, and provide feedback. We're here to help you succeed on your SAT journey.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">SATPrep Pro</div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="features.html" class="nav-link">Features</a></li>
+                        <li><a href="sat-info.html" class="nav-link">SAT Info</a></li>
+                        <li><a href="unis.html" class="nav-link">Universities</a></li>
+                        <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="calculator.html" class="nav-cta">Try Calculator</a></li>
+                    </ul>
+                    
+                    <button class="mobile-menu-toggle">☰</button>
+                </nav>
+                
+                <div class="mobile-nav">
+                    <ul class="mobile-nav-list">
+                        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                        <li><a href="features.html" class="mobile-nav-link">Features</a></li>
+                        <li><a href="sat-info.html" class="mobile-nav-link">SAT Info</a></li>
+                        <li><a href="unis.html" class="mobile-nav-link">Universities</a></li>
+                        <li><a href="calculator.html" class="mobile-nav-link">Calculator</a></li>
+                        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content fade-in">
+                <h1>Get in Touch</h1>
+                <p class="hero-subtitle">We're here to support your SAT preparation journey. Reach out to our team of experts for personalized guidance and assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Options -->
+    <section class="contact-options">
+        <div class="container">
+            <div class="options-grid">
+                <div class="contact-option fade-in">
+                    <div class="option-icon">📧</div>
+                    <h3>Email Support</h3>
+                    <p>Get detailed answers to your questions from our SAT experts.</p>
+                    <div class="option-details">
+                        <div class="option-detail"><strong>Response Time:</strong> Within 24 hours</div>
+                        <div class="option-detail"><strong>Availability:</strong> 24/7</div>
+                        <div class="option-detail"><strong>Best For:</strong> Detailed questions, technical issues</div>
+                    </div>
+                    <a href="mailto:support@satpreppro.com" class="btn btn-primary">Send Email</a>
+                </div>
+                
+                <div class="contact-option fade-in">
+                    <div class="option-icon">💬</div>
+                    <h3>Live Chat</h3>
+                    <p>Get instant help with quick questions and real-time support.</p>
+                    <div class="option-details">
+                        <div class="option-detail"><strong>Response Time:</strong> Immediate</div>
+                        <div class="option-detail"><strong>Availability:</strong> Mon-Fri 9AM-6PM EST</div>
+                        <div class="option-detail"><strong>Best For:</strong> Quick questions, account issues</div>
+                    </div>
+                    <button class="btn btn-primary" onclick="openLiveChat()">Start Chat</button>
+                </div>
+                
+                <div class="contact-option fade-in">
+                    <div class="option-icon">📚</div>
+                    <h3>Study Support</h3>
+                    <p>Book a session with our tutors for personalized SAT guidance.</p>
+                    <div class="option-details">
+                        <div class="option-detail"><strong>Session Length:</strong> 30-60 minutes</div>
+                        <div class="option-detail"><strong>Availability:</strong> By appointment</div>
+                        <div class="option-detail"><strong>Best For:</strong> Study plans, score improvement</div>
+                    </div>
+                    <a href="#contact-form" class="btn btn-primary">Book Session</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section" id="contact-form">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-header fade-in">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                </div>
+                
+                <form class="contact-form fade-in" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName" class="form-label">First Name <span class="required">*</span></label>
+                            <input type="text" id="firstName" name="firstName" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName" class="form-label">Last Name <span class="required">*</span></label>
+                            <input type="text" id="lastName" name="lastName" class="form-input" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject <span class="required">*</span></label>
+                        <select id="subject" name="subject" class="form-select subject-select" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Question</option>
+                            <option value="technical">Technical Support</option>
+                            <option value="study-plan">Study Plan Assistance</option>
+                            <option value="score-improvement">Score Improvement Help</option>
+                            <option value="university-guidance">University Guidance</option>
+                            <option value="billing">Billing & Account</option>
+                            <option value="partnership">Partnership Inquiry</option>
+                            <option value="feedback">Feedback & Suggestions</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message <span class="required">*</span></label>
+                        <textarea id="message" name="message" class="form-textarea" rows="6" placeholder="Please provide as much detail as possible..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="attachment" class="form-label">Attachment (Optional)</label>
+                        <div class="file-upload">
+                            <input type="file" id="attachment" name="attachment" class="file-input" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+                            <label for="attachment" class="file-label">
+                                <span class="file-icon">📎</span>
+                                <div class="file-info">
+                                    <div>Choose file or drag and drop</div>
+                                    <div style="font-size: 0.75rem; color: var(--medium-gray);">PDF, DOC, JPG, PNG (max 10MB)</div>
+                                </div>
+                            </label>
+                            <div class="file-status" id="fileStatus"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+                        <label for="newsletter" class="checkbox-label">
+                            I would like to receive SAT tips and updates via email
+                        </label>
+                    </div>
+                    
+                    <div class="form-checkbox-group">
+                        <input type="checkbox" id="privacy" name="privacy" class="form-checkbox" required>
+                        <label for="privacy" class="checkbox-label">
+                            I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> <span class="required">*</span>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="team-header fade-in">
+                <h2>Meet Our Team</h2>
+                <p>Our dedicated team of SAT experts and educators is here to help you achieve your academic goals.</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member fade-in">
+                    <div class="member-avatar">DS</div>
+                    <div class="member-name">Dr. Sarah Chen</div>
+                    <div class="member-role">Lead SAT Strategist</div>
+                    <div class="member-bio">15+ years of experience in standardized test preparation with a PhD in Educational Psychology from Stanford University.</div>
+                    <div class="member-contact">
+                        <a href="mailto:sarah@satpreppro.com" title="Email">📧</a>
+                        <a href="#" title="LinkedIn">💼</a>
+                        <a href="#" title="Twitter">🐦</a>
+                    </div>
+                </div>
+                
+                <div class="team-member fade-in">
+                    <div class="member-avatar">MJ</div>
+                    <div class="member-name">Michael Johnson</div>
+                    <div class="member-role">Math Content Director</div>
+                    <div class="member-bio">Former MIT professor specializing in creating innovative math curricula that make complex concepts accessible and engaging.</div>
+                    <div class="member-contact">
+                        <a href="mailto:michael@satpreppro.com" title="Email">📧</a>
+                        <a href="#" title="LinkedIn">💼</a>
+                        <a href="#" title="Academic Profile">🎓</a>
+                    </div>
+                </div>
+                
+                <div class="team-member fade-in">
+                    <div class="member-avatar">ER</div>
+                    <div class="member-name">Emily Rodriguez</div>
+                    <div class="member-role">Reading & Writing Specialist</div>
+                    <div class="member-bio">Award-winning educator with expertise in reading comprehension strategies and advanced writing techniques for test success.</div>
+                    <div class="member-contact">
+                        <a href="mailto:emily@satpreppro.com" title="Email">📧</a>
+                        <a href="#" title="LinkedIn">💼</a>
+                        <a href="#" title="Blog">📝</a>
+                    </div>
+                </div>
+                
+                <div class="team-member fade-in">
+                    <div class="member-avatar">DK</div>
+                    <div class="member-name">David Kim</div>
+                    <div class="member-role">Technology Lead</div>
+                    <div class="member-bio">Software engineer and data scientist focused on creating adaptive learning algorithms that personalize the study experience.</div>
+                    <div class="member-contact">
+                        <a href="mailto:david@satpreppro.com" title="Email">📧</a>
+                        <a href="#" title="LinkedIn">💼</a>
+                        <a href="#" title="GitHub">💻</a>
+                    </div>
+                </div>
+                
+                <div class="team-member fade-in">
+                    <div class="member-avatar">LW</div>
+                    <div class="member-name">Lisa Wang</div>
+                    <div class="member-role">Student Success Manager</div>
+                    <div class="member-bio">Dedicated to ensuring every student reaches their potential through personalized support and motivation strategies.</div>
+                    <div class="member-contact">
+                        <a href="mailto:lisa@satpreppro.com" title="Email">📧</a>
+                        <a href="#" title="LinkedIn">💼</a>
+                        <a href="#" title="Calendar">📅</a>
+                    </div>
+                </div>
+                
+                <div class="team-member fade-in">
+                    <div class="member-avatar">JM</div>
+                    <div class="member-name">James Miller</div>
+                    <div class="member-role">College Admissions Advisor</div>
+                    <div class="member-bio">Former admissions officer with insider knowledge of college applications and how SAT scores impact admission decisions.</div>
+                    <div class="member-contact">
+                        <a href="mailto:james@satpreppro.com" title="Email">📧</a>
+                        <a href="#" title="LinkedIn">💼</a>
+                        <a href="#" title="Consultation">📞</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback-section">
+        <div class="container">
+            <div class="feedback-container">
+                <div class="feedback-header fade-in">
+                    <h2>Share Your Feedback</h2>
+                    <p>Help us improve by sharing your experience with SATPrep Pro. Your feedback drives our continuous improvement.</p>
+                </div>
+                
+                <form class="feedback-form fade-in" id="feedbackForm">
+                    <div class="rating-group">
+                        <label class="form-label">Overall Experience <span class="required">*</span></label>
+                        <div class="rating-stars" id="overallRating">
+                            <span class="star" data-rating="1">⭐</span>
+                            <span class="star" data-rating="2">⭐</span>
+                            <span class="star" data-rating="3">⭐</span>
+                            <span class="star" data-rating="4">⭐</span>
+                            <span class="star" data-rating="5">⭐</span>
+                        </div>
+                        <div class="rating-label" id="ratingLabel">Click to rate</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="feedbackCategory" class="form-label">Category</label>
+                        <select id="feedbackCategory" name="category" class="form-select">
+                            <option value="general">General Feedback</option>
+                            <option value="features">Features & Functionality</option>
+                            <option value="content">Content Quality</option>
+                            <option value="usability">Website Usability</option>
+                            <option value="support">Customer Support</option>
+                            <option value="suggestion">Feature Request</option>
+                            <option value="bug">Bug Report</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="feedbackMessage" class="form-label">Your Feedback <span class="required">*</span></label>
+                        <textarea id="feedbackMessage" name="message" class="form-textarea feedback-textarea" placeholder="Share your thoughts, suggestions, or report any issues..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="feedbackEmail" class="form-label">Email (Optional)</label>
+                        <input type="email" id="feedbackEmail" name="email" class="form-input" placeholder="Enter your email if you'd like a response">
+                    </div>
+                    
+                    <div class="form-checkbox-group">
+                        <input type="checkbox" id="followUp" name="followUp" class="form-checkbox">
+                        <label for="followUp" class="checkbox-label">
+                            I'm open to being contacted for follow-up questions about my feedback
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">Submit Feedback</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact FAQ -->
+    <section class="contact-faq">
+        <div class="container">
+            <div class="faq-header fade-in">
+                <h2>Common Questions</h2>
+                <p>Quick answers to frequently asked questions about our platform and services.</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item fade-in">
+                    <div class="faq-question">How quickly will I receive a response?</div>
+                    <div class="faq-answer">We typically respond to emails within 24 hours during business days. Live chat responses are immediate during business hours (Mon-Fri, 9AM-6PM EST).</div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <div class="faq-question">Can I schedule a one-on-one tutoring session?</div>
+                    <div class="faq-answer">Yes! Our expert tutors are available for personalized sessions. Use the contact form above with "Study Plan Assistance" as the subject to request a session.</div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <div class="faq-question">Do you offer technical support?</div>
+                    <div class="faq-answer">Absolutely. Our technical support team can help with account issues, platform navigation, and any technical difficulties you may encounter.</div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <div class="faq-question">Is there a phone number I can call?</div>
+                    <div class="faq-answer">Currently, we provide support through email, live chat, and our contact form. This allows us to provide detailed, documented assistance for your SAT prep questions.</div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <div class="faq-question">Can parents contact you about their child's progress?</div>
+                    <div class="faq-answer">Yes, we welcome communication from parents. Please include your child's account information and specify that you're a parent when contacting us.</div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <div class="faq-question">How do I report a bug or technical issue?</div>
+                    <div class="faq-answer">Use the contact form with "Technical Support" as the subject, or select "Bug Report" in the feedback form. Please include details about what you were doing when the issue occurred.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SATPrep Pro</h4>
+                    <p>The ultimate SAT preparation platform designed to help students achieve their dream scores and get into their target universities.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="calculator.html">Score Calculator</a></li>
+                        <li><a href="sat-info.html">SAT Information</a></li>
+                        <li><a href="unis.html">University Directory</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Study Tips</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SATPrep Pro. All rights reserved. | Email: support@satpreppro.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/global.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

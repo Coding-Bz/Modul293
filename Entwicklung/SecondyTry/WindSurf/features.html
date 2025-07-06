@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Features - SAT Prep App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/features.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav class="container">
+            <a href="/index.html" class="logo">SATApp</a>
+            <ul>
+                <li><a href="/features.html">Features</a></li>
+                <li><a href="/sat-info.html">SAT Info</a></li>
+                <li><a href="/unis.html">Universities</a></li>
+                <li><a href="/calculator.html">Score Calculator</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>App Features</h1>
+            <p>Explore the tools designed to help you succeed.</p>
+            <div class="feature-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="practice">Practice</button>
+                <button class="filter-btn" data-filter="analytics">Analytics</button>
+                <button class="filter-btn" data-filter="resources">Resources</button>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card" data-category="practice">
+                    <h3>Personalized Practice Tests</h3>
+                    <p>Adaptive tests that focus on your weak spots.</p>
+                    <a href="/feature-detail.html?feature=practice-tests">Learn More</a>
+                </div>
+                <div class="feature-card" data-category="analytics">
+                    <h3>Score Prediction</h3>
+                    <p>Estimate your SAT score based on your performance.</p>
+                    <a href="/feature-detail.html?feature=score-prediction">Learn More</a>
+                </div>
+                <div class="feature-card" data-category="resources">
+                    <h3>University Matching</h3>
+                    <p>Find universities that match your score and profile.</p>
+                    <a href="/feature-detail.html?feature=uni-matching">Learn More</a>
+                </div>
+                <div class="feature-card" data-category="practice">
+                    <h3>Question of the Day</h3>
+                    <p>A new SAT question delivered to you daily.</p>
+                    <a href="/feature-detail.html?feature=daily-question">Learn More</a>
+                </div>
+                 <div class="feature-card" data-category="analytics">
+                    <h3>Progress Tracking</h3>
+                    <p>Visualize your improvement over time with detailed charts.</p>
+                    <a href="/feature-detail.html?feature=progress-tracking">Learn More</a>
+                </div>
+                 <div class="feature-card" data-category="resources">
+                    <h3>Flashcard Decks</h3>
+                    <p>Master key concepts with our curated flashcards.</p>
+                    <a href="/feature-detail.html?feature=flashcards">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SATApp. All rights reserved.</p>
+            <p><a href="/privacy.html">Privacy Policy</a> | <a href="mailto:support@satapp.com">support@satapp.com</a></p>
+        </div>
+    </footer>
+
+    <script src="js/features.js"></script>
+</body>
+</html>
