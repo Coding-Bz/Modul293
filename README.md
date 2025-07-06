@@ -1,5 +1,19 @@
 # Projektdokumentation – KI-gestützte Webentwicklung
 
+## 📚 Inhaltsverzeichnis
+
+1. [Einleitung](#einleitung)
+2. [Projektplanung](#projektplanung)
+3. [KI-gestützte Entwicklung – Vorgehensweise](#ki-gestützte-entwicklung--vorgehensweise)
+4. [SAT App Landing Page – Mein kompletter Prompt](#sat-app-landing-page--mein-kompletter-prompt)
+5. [Benutzerumfrage zur KI-Nutzung](#benutzerumfrage-zur-ki-nutzung)
+6. [Erkenntnisse der Umfrage](#erkenntnisse-der-umfrage)
+7. [Problemlösungen](#problemlösungen)
+8. [Fazit](#fazit)
+9. [Links](#links)
+
+---
+
 ## Einleitung
 
 Dieses Dossier soll das Potenzial von Künstlicher Intelligenz (KI) verdeutlichen und die damit verbundenen Möglichkeiten klarer darstellen.  
@@ -67,9 +81,10 @@ Beobachtungen:
 
 ---
 
-# SAT App Landing Page – Mein kompletter Prompt
+## SAT App Landing Page – Mein kompletter Prompt
 
-## 1. 🎯 Goal of the Website
+### 1. 🎯 Goal of the Website
+
 Create a clean, professional, and highly usable landing page for a **mobile app** that helps students prepare for the **SAT** (Scholastic Assessment Test).  
 The site should:
 - Inform, convince, and guide visitors through app features, SAT insights, and relevant universities.
@@ -77,9 +92,8 @@ The site should:
 - Be fully responsive across all devices.
 - Include **abstract sections** for a creative, modern touch.
 
----
+### 2. 🖥️ Website Type
 
-## 2. 🖥️ Website Type
 A **landing page** with structured subpages:
 
 - `/features.html`: App Features Overview
@@ -89,9 +103,7 @@ A **landing page** with structured subpages:
 - `/contact.html`: Contact & Feedback Form
 - `/calculator.html`: SAT Score Calculator
 
----
-
-## 3. 🧱 Pages & Layout
+### 3. 🧱 Pages & Layout
 
 | Page                  | Description                                                                 | CSS File              |
 |-----------------------|-----------------------------------------------------------------------------|------------------------|
@@ -108,9 +120,7 @@ Each page includes:
 - Grid-based main layout
 - Footer with legal info, email, privacy, social links (optional)
 
----
-
-## 4. 🎨 Design Style
+### 4. 🎨 Design Style
 
 A **hybrid of Swiss and California design**:
 
@@ -124,9 +134,7 @@ Design accents:
 - Floating SVGs
 - Clean, minimal but expressive
 
----
-
-## 5. ⚙️ Core Functionality
+### 5. ⚙️ Core Functionality
 
 - [x] Real **SAT Score Calculator** (with logic and formula)
 - [x] Newsletter sign-up
@@ -136,9 +144,7 @@ Design accents:
 - [x] Feedback module (text + star rating)
 - [ ] Optional: Dark mode toggle, interactive scroll animations
 
----
-
-## 6. 💡 Tech Stack
+### 6. 💡 Tech Stack
 
 - ❌ **No frameworks** (e.g. no Bootstrap, Tailwind)
 - ✅ **Native HTML5 / CSS3**
@@ -151,38 +157,29 @@ Design accents:
 
 **Folder structure must remain clean and scalable.**
 
----
-
-## 7. 🔍 Design Inspirations
+### 7. 🔍 Design Inspirations
 
 - **Notion** – layout clarity  
 - **Apple** – storytelling  
 - **Superlist** – abstract animations  
 - **Swissdesign.org** – space & typography
 
----
-
-## 8. 📌 Summary
+### 8. 📌 Summary
 
 Build a **modern SAT App Landing Page** with:
-- Swiss-inspired minimalism
-- California-style creativity
-- Multiple responsive pages
-- Real SAT calculator
-- Filtered content views
-- Clean HTML, CSS & JS only
-- Elegant UX & creative visuals
+- Swiss-inspired minimalism  
+- California-style creativity  
+- Multiple responsive pages  
+- Real SAT calculator  
+- Filtered content views  
+- Clean HTML, CSS & JS only  
+- Elegant UX & creative visuals  
 
-
-
+---
 
 ## Benutzerumfrage zur KI-Nutzung
 
 ### ❓ Frage 1: Haben Sie jemals KI benutzt?
-
-_Antwortauswahl_  
-- Ja  
-- Nein  
 
 ![Diagramm: KI-Benutzung](https://raw.githubusercontent.com/Coding-Bz/Modul293/main/Diagramme/KIBenutzung.jpg)
 
@@ -190,23 +187,11 @@ _Antwortauswahl_
 
 ### ❓ Frage 2: Würden Sie eine von einer KI erstellte Website nutzen, wenn Ihnen das bekannt ist?
 
-_Antwortauswahl:_  
-- Ja  
-- Nein  
-
 ![Diagramm: Beliebtheit von KI-Webseiten](https://github.com/Coding-Bz/Modul293/blob/main/Diagramme/KIWebsiteBeliebtheit.png?raw=true)
 
 ---
 
 ### ❓ Frage 3: Welcher Website vertrauen Sie mehr?
-
-> Einer von einer **KI** erstellten  
-> oder einer von einem **Menschen** erstellten?
-
-_Antwortauswahl:_  
-- KI-Website  
-- Menschliche Website  
-- Kein Unterschied  
 
 ![Diagramm: Vertrauen in KI-Webseiten](https://github.com/Coding-Bz/Modul293/blob/main/Diagramme/VertrauenAnKI.png?raw=true)
 
@@ -250,19 +235,7 @@ Das zeigt: Viele vertrauen weiterhin lieber menschlicher Arbeit. Ganz so weit, d
 
 ---
 
-### 🎯 Persönliches Fazit zur Umfrage
-
-Diese Umfrage hat mir sehr geholfen, auch meine eigene Meinung weiterzuentwickeln. Die verschiedenen Antworten – egal ob pro, kontra oder neutral – haben mir neue Perspektiven gegeben.
-
-Ich bin überzeugt: **KI wird eine immer größere Rolle spielen – ob wir es wollen oder nicht.**  
-Deshalb bringt es nichts, sich pauschal dagegenzustellen. Stattdessen sollten wir versuchen, KI so mitzugestalten, dass sie die Gesellschaft **nicht negativ beeinflusst**, sondern **uns produktiver und effizienter macht**.
-
-Solange das der Fall ist, kann KI ein echter Vorteil für uns alle sein.
-
-
-# 🧠 Projektbericht: Modul 293 – KI in der Webentwicklung
-
-## 📌 Problemlösungen
+## Problemlösungen
 
 Wenn man neue Tools benutzt, die man noch nie verwendet hat, steht man natürlich erst mal vor einer Herausforderung. Ich musste mich einarbeiten und wollte gleichzeitig alle Features ausprobieren, die diese Tools anbieten. Das war zwar keine technische Hürde, aber definitiv etwas, das ich zeitlich unterschätzt habe.
 
@@ -287,7 +260,6 @@ Was das Zeitmanagement betrifft, ja, ich hätte vielleicht noch intelligenter pl
 Die Umfrage hat riesiges Potenzial. Das Thema ist wichtig, jetzt und in Zukunft. Ich würde gerne eine grössere Version davon durchführen. Das wäre mein nächster Schritt.
 
 Für mich war das Modul 293 eine Chance, eigene Interessen zu verfolgen und dabei trotzdem beim Thema zu bleiben. Es gibt bei allem noch Verbesserungspotenzial, aber für die gegebene Zeit habe ich meiner Meinung nach das Beste draus gemacht.
-
 
 ---
 
