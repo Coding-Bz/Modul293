@@ -250,7 +250,7 @@ Das zeigt: Viele vertrauen weiterhin lieber menschlicher Arbeit. Ganz so weit, d
 
 ---
 
-### 🎯 Persönliches Fazit
+### 🎯 Persönliches Fazit zur Umfrage
 
 Diese Umfrage hat mir sehr geholfen, auch meine eigene Meinung weiterzuentwickeln. Die verschiedenen Antworten – egal ob pro, kontra oder neutral – haben mir neue Perspektiven gegeben.
 
@@ -258,6 +258,36 @@ Ich bin überzeugt: **KI wird eine immer größere Rolle spielen – ob wir es w
 Deshalb bringt es nichts, sich pauschal dagegenzustellen. Stattdessen sollten wir versuchen, KI so mitzugestalten, dass sie die Gesellschaft **nicht negativ beeinflusst**, sondern **uns produktiver und effizienter macht**.
 
 Solange das der Fall ist, kann KI ein echter Vorteil für uns alle sein.
+
+
+# 🧠 Projektbericht: Modul 293 – KI in der Webentwicklung
+
+## 📌 Problemlösungen
+
+Wenn man neue Tools benutzt, die man noch nie verwendet hat, steht man natürlich erst mal vor einer Herausforderung. Ich musste mich einarbeiten und wollte gleichzeitig alle Features ausprobieren, die diese Tools anbieten. Das war zwar keine technische Hürde, aber definitiv etwas, das ich zeitlich unterschätzt habe.
+
+Eine echte Herausforderung für mich war es, alles unter einen Hut zu bringen. Ich wollte zusätzlich Dinge machen, die nicht verlangt wurden, zum Beispiel die Umfrage, die ich selbst geführt habe, und das YouTube Video, das ich gedreht habe. Und da merkt man schnell: Ohne gutes Zeitmanagement geht gar nichts. Wenn man viele Ideen hat, braucht man entweder eine perfekte oder zumindest keine schlechte Planung. Und bei mir war das Zeitmanagement meiner Meinung nach definitiv ein Punkt, an dem ich am Anfang Schwierigkeiten hatte.
+
+Ein weiterer Punkt war die Objektivität. Vor allem bei der Auswertung, zum Beispiel beim Thema Design. Ich wollte fair bleiben. Ich habe dann oft andere Leute gefragt, wie sie die Seiten finden. Meinst du, diese ist schöner oder eher die andere. Ich habe probiert, so neutral wie möglich zu sein, aber ich glaube, bei so subjektiven Dingen wie Design ist echte Objektivität fast unmöglich. Trotzdem habe ich mein Bestes gegeben, um alles so datenbasiert wie möglich zu bewerten und die Meinungen anderer Leute mit einzubeziehen.
+
+Bei der Umfrage war es auch schwierig, Leute zu finden, die mir überhaupt ihre Meinung mitteilen wollten. Ich habe schon früher Umfragen gemacht, in Wirtschaft und IT, und auch gelernt, wie man Menschen anspricht. Aber gerade in Zürich habe ich gemerkt, viele sind skeptisch, vor allem bei solchen Themen. Und ich durfte auch nicht im Bahnhof selbst Leute ansprechen, weil das SBB Gelände ist. Also habe ich alles rund um die Europaallee gemacht, was aber im Nachhinein gar kein schlechter Ort war.
+
+Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache ist. Ich war anfangs unsicher, aber alle in meinem Umfeld haben gesagt, ich soll es machen. Erstens, um meine Englischkenntnisse zu trainieren. Zweitens, weil ich bei Google arbeite und wir da sowieso alles auf Englisch machen. Und drittens, weil ich so eine größere Zielgruppe ansprechen kann. Ich habe das Video zuerst auf Deutsch aufgenommen, dann übersetzt und beide Versionen bereitgestellt, welches mir auch viel Zeit gekostet hat.
+
+---
+
+## ✅ Fazit
+
+Insgesamt bin ich ziemlich stolz auf mein Projekt. Ich habe mehr gemacht als verlangt und das mit echtem Einsatz. Ich habe sechs verschiedene Webseiten gebaut. Für jede KI, die ich getestet habe, zwei Seiten, um fair zu bleiben. Denn es kann sein, dass die erste super läuft, die zweite aber gar nicht funktioniert. Deshalb wollte ich einen direkten Vergleich machen. Es gab auch eine KI, die gar nicht funktioniert hat, trotzdem habe ich mich über sie informiert und dazugelernt.
+
+Ich habe eine Umfrage gemacht, um die Meinung der Gesellschaft zur KI in der Webentwicklung zu verstehen. Ich habe ein Video produziert, in dem ich live die Tools analysiere, Webseiten teste, zeige ob sie responsive sind und erkläre, wie man richtige Prompts schreibt. Ich habe das Thema wirklich breit behandelt.
+
+Was das Zeitmanagement betrifft, ja, ich hätte vielleicht noch intelligenter planen können. Aber ich konnte die meisten meiner Ideen umsetzen. Mit mehr Zeit hätte ich sicher noch mehr geschafft, da bin ich überzeugt.
+
+Die Umfrage hat riesiges Potenzial. Das Thema ist wichtig, jetzt und in Zukunft. Ich würde gerne eine grössere Version davon durchführen. Das wäre mein nächster Schritt.
+
+Für mich war das Modul 293 eine Chance, eigene Interessen zu verfolgen und dabei trotzdem beim Thema zu bleiben. Es gibt bei allem noch Verbesserungspotenzial, aber für die gegebene Zeit habe ich meiner Meinung nach das Beste draus gemacht.
+
 
 ---
 
