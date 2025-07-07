@@ -282,7 +282,8 @@ Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache is
 
 ---
 
-### Fazit
+## Fazit
+
 
 ## Vorteile der KI-Nutzung:
 
