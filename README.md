@@ -3,15 +3,14 @@
 ## Inhaltsverzeichnis
 
 1. [Einleitung](#einleitung)  
-2. [Projektplanung](#projektplanung)  
-3. [KI-gestützte Entwicklung – Vorgehensweise](#ki-gestützte-entwicklung--vorgehensweise)  
-4. [SAT App Landing Page – Mein kompletter Prompt](#sat-app-landing-page--mein-kompletter-prompt)  
-5. [Stile & Design der abgeschlossenen Website](#stile--design-der-abgeschlossenen-website)  
-6. [Benutzerumfrage zur KI-Nutzung](#benutzerumfrage-zur-ki-nutzung)  
-7. [Erkenntnisse der Umfrage](#erkenntnisse-der-umfrage)  
-8. [Problemlösungen](#problemlösungen)  
-9. [Fazit](#fazit)  
-10. [🔗 Links](#-links)
+2. [Projektplanung - Vorgehehensweise](#projektplanung-vorhgehensweise)  
+3. [SAT App Landing Page – Mein kompletter Prompt](#sat-app-landing-page--mein-kompletter-prompt)  
+4. [Stile & Design der abgeschlossenen Website](#stile--design-der-abgeschlossenen-website)  
+5. [Benutzerumfrage zur KI-Nutzung](#benutzerumfrage-zur-ki-nutzung)  
+6. [Erkenntnisse der Umfrage](#erkenntnisse-der-umfrage)  
+7. [Problemlösungen](#problemlösungen)  
+8. [Fazit](#fazit)  
+9. [Links](#-links)
 
 ---
 
@@ -33,11 +32,11 @@ Das Projekt umfasst:
 3. Lernen, welche KI wofür am besten geeignet ist  
 4. Meinung der Öffentlichkeit zur KI-Webentwicklung verstehen (Umfrage)
 
-→ Das Repository & das begleitende YouTube-Video sind **öffentlich zugänglich**.
+Das Repository & das begleitende YouTube-Video sind **öffentlich zugänglich**.
 
 ---
 
-## Projektplanung
+## Projektplanung - Vorgehensweise
 
 **Dauer:** 7 Tage  
 **Aufteilung:**
@@ -55,10 +54,6 @@ Das Projekt umfasst:
 
 Viele KIs benötigten manuelle Nachbearbeitung (z. B. für Syntax, Design, Layout).
 
----
-
-## KI-gestützte Entwicklung – Vorgehensweise
-
 ### Haupttools (für Webseiten)
 
 - **Windsurf**
@@ -66,19 +61,13 @@ Viele KIs benötigten manuelle Nachbearbeitung (z. B. für Syntax, Design, Lay
 - **Cursor**
 - **PearAI**
 
-Ziel: Kann die KI eine funktionierende, responsive Website erstellen?
 
 **Zusätzliche Tools:**
 
 - **TurboScribe**: Audio-Transkription  
-- **ChatGPT (JGBT)**: Grammatik-/Rechtschreibkorrektur  
+- **ChatGPT**: Grammatik-/Rechtschreibkorrektur  
 
-Ich habe **bewusst nicht alles der KI überlassen**, sondern gezielt nachgebessert.  
-Beobachtungen:
-
-- Wo hilft die KI wirklich?
-- Wo sind typische Fehler?
-- Wann braucht es manuelles Eingreifen?
+Ich habe **bewusst nicht alles der KI überlassen**, sondern gezielt nachgebessert.
 
 ---
 
