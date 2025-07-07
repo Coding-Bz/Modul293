@@ -202,9 +202,9 @@ Build a **modern SAT App Landing Page** with:
 | **Buttons**           | `font-weight: 600`<br>`text-transform: uppercase`                                       |
 | **Small Text**        | `font-size: var(--font-size-sm)`                                                        |
 
-### Design-Auswertung
+### Auswertung der KI's, welche ich benutzt habe
 
-![image](https://github.com/user-attachments/assets/eab4ccb3-f5c9-44d1-a52c-797586c03a73)
+![image][(https://github.com/user-attachments/assets/eab4ccb3-f5c9-44d1-a52c-797586c03a73](https://github.com/Coding-Bz/Modul293/blob/main/Auswertung%20der%20KI's%20Matrix.png)]
 
 Die Seite, für die ich mich letztlich entschieden habe, ist jene von Replit.  
 Ein Link zur Seite und zum zugehörigen Repository befindet sich bei den [🔗 Verlinkungen](#-links).  
