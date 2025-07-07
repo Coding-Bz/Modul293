@@ -199,7 +199,7 @@ Build a **modern SAT App Landing Page** with:
 Die Seite, für die ich mich letztlich entschieden habe, ist jene von Replit.  
 Ein Link zur Seite und zum zugehörigen Repository befindet sich bei den [🔗 Verlinkungen](#-links).  
 
-**Für mehr Informationen kann ich höchstens empfehlen, mein YouTube-Video anzuschauen, weil ich dort alles gezeigt habe , je eine Seite pro AI und auch meine Auswertung detailliert begründet habe. Ich habe ausserdem mein Prompt-Layout erklärt und warum dieses Thema wichtig ist.**
+**Für mehr Informationen kann ich höchstens empfehlen, mein YouTube-Video anzuschauen, weil ich dort alles gezeigt habe, je eine Seite pro AI und auch meine Auswertung detailliert begründet habe. Ich habe ausserdem mein Prompt-Layout erklärt und warum dieses Thema wichtig ist.**
 
 ---
 
@@ -228,7 +228,7 @@ Ein Link zur Seite und zum zugehörigen Repository befindet sich bei den [🔗 V
 ### Frage 1: Haben Sie jemals KI benutzt?
 
 Diese Frage diente als Einstieg ins Thema. 20 % der Befragten gaben an, noch nie KI benutzt zu haben.  
-Interessanterweise kam eine ähnliche Studie zum selben Ergebnis: Auch bei Sekundarschülerinnen und -schülern zeigte sich, dass rund 80 % bereits Erfahrung mit KI gemacht haben.
+Interessanterweise kam eine ähnliche Studie zum selben Ergebnis: Auch bei Sekundarschülerinnen und schülern zeigte sich, dass rund 80 % bereits Erfahrung mit KI gemacht haben.
 
 Für ein Thema, das noch nicht sehr lange präsent ist, ist das ein beachtlicher Wert – und zeigt, wie schnell sich nicht nur die IT, sondern die Gesellschaft insgesamt an neue Technologien anpasst. Auch Menschen, die im Alltag wenig mit IT zu tun haben, scheinen sich zunehmend mit KI auseinanderzusetzen.  
 Dass bereits so viele in der Schweiz KI nutzen, freut mich persönlich – es ist für mich ein Zeichen von Modernität.
@@ -254,7 +254,7 @@ Diese Frage fand ich persönlich am spannendsten.
 Auf den ersten Blick wirkt das vielleicht gleichgültig oder neutral – aber ich denke, bei vielen zeigt das eher eine gewisse Offenheit und Pragmatismus. Viele dieser 53 % hatten allgemein wenig emotionale Meinung zum Thema und reagierten eher rational.
 
 **7 % sagten sogar, dass sie einer KI-Webseite mehr vertrauen würden.**  
-Eine mögliche Erklärung: Sie erwarten von großen KI-Systemen mehr Sicherheit als von kleinen, menschlich erstellten Seiten – vielleicht aus Angst vor Betrug bei Privatpersonen.
+Eine mögliche Erklärung: Sie erwarten von grossen KI-Systemen mehr Sicherheit als von kleinen, menschlich erstellten Seiten – vielleicht aus Angst vor Betrug bei Privatpersonen.
 
 **40 % bevorzugten aber eine von einem Menschen erstellte Website.**  
 Das zeigt: Viele vertrauen weiterhin lieber menschlicher Arbeit. Ganz so weit, dass wir die Kontrolle komplett der KI überlassen wollen, sind wir also noch nicht.
@@ -270,9 +270,9 @@ Eine echte Herausforderung für mich war es, alles unter einen Hut zu bringen. I
 
 Ein weiterer Punkt war die Objektivität. Vor allem bei der Auswertung, zum Beispiel beim Thema Design. Ich wollte fair bleiben. Ich habe dann oft andere Leute gefragt, wie sie die Seiten finden. Meinst du, diese ist schöner oder eher die andere. Ich habe probiert, so neutral wie möglich zu sein, aber ich glaube, bei so subjektiven Dingen wie Design ist echte Objektivität fast unmöglich. Trotzdem habe ich mein Bestes gegeben, um alles so datenbasiert wie möglich zu bewerten und die Meinungen anderer Leute mit einzubeziehen.
 
-Bei der Umfrage war es auch schwierig, Leute zu finden, die mir überhaupt ihre Meinung mitteilen wollten. Ich habe schon früher Umfragen gemacht, in Wirtschaft und IT, und auch gelernt, wie man Menschen anspricht. Aber gerade in Zürich habe ich gemerkt, viele sind skeptisch, vor allem bei solchen Themen. Und ich durfte auch nicht im Bahnhof selbst Leute ansprechen, weil das SBB Gelände ist. Also habe ich alles rund um die Europaallee gemacht, was aber im Nachhinein gar kein schlechter Ort war.
+Bei der Umfrage war es auch schwierig, Leute zu finden, die mir überhaupt ihre Meinung mitteilen wollten. Ich habe schon früher Umfragen gemacht, in Wirtschaft und IT, und auch gelernt, wie man Menschen anspricht. Aber gerade in Zürich habe ich gemerkt, viele sind skeptisch, vor allem bei solchen Themen. Und ich durfte auch nicht im Bahnhof selbst Leute ansprechen, weil das SBB-Gelände ist. Also habe ich alles rund um die Europaallee gemacht, was aber im Nachhinein gar kein schlechter Ort war.
 
-Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache ist. Ich war anfangs unsicher, aber alle in meinem Umfeld haben gesagt, ich soll es machen. Erstens, um meine Englischkenntnisse zu trainieren. Zweitens, weil ich bei Google arbeite und wir da sowieso alles auf Englisch machen. Und drittens, weil ich so eine größere Zielgruppe ansprechen kann. Ich habe das Video zuerst auf Deutsch aufgenommen, dann übersetzt und beide Versionen bereitgestellt, welches mir auch viel Zeit gekostet hat.
+Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache ist. Ich war anfangs unsicher, aber alle in meinem Umfeld haben gesagt, ich soll es machen. Erstens, um meine Englischkenntnisse zu trainieren. Zweitens, weil ich bei Google arbeite und wir da sowieso alles auf Englisch machen. Und drittens, weil ich so eine grössere Zielgruppe ansprechen kann. Ich habe das Video zuerst auf Deutsch aufgenommen, dann übersetzt und beide Versionen bereitgestellt, welches mir auch viel Zeit gekostet hat.
 
 ---
 
@@ -280,9 +280,9 @@ Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache is
 
 Insgesamt bin ich ziemlich stolz auf mein Projekt. Ich habe mehr gemacht als verlangt und das mit echtem Einsatz. Ich habe sechs verschiedene Webseiten gebaut. Für jede KI, die ich getestet habe, zwei Seiten, um fair zu bleiben. Denn es kann sein, dass die erste super läuft, die zweite aber gar nicht funktioniert. Deshalb wollte ich einen direkten Vergleich machen. Es gab auch eine KI, die gar nicht funktioniert hat, trotzdem habe ich mich über sie informiert und dazugelernt.
 
-Ich habe eine Umfrage gemacht, um die Meinung der Gesellschaft zur KI in der Webentwicklung zu verstehen. Ich habe ein Video produziert, in dem ich live die Tools analysiere, Webseiten teste, zeige ob sie responsive sind und erkläre, wie man richtige Prompts schreibt. Ich habe das Thema wirklich breit behandelt.
+Ich habe eine Umfrage gemacht, um die Meinung der Gesellschaft zur KI in der Webentwicklung zu verstehen. Ich habe ein Video produziert, in dem ich live die Tools analysiere, Webseiten teste, zeige, ob sie responsive sind und erkläre, wie man richtige Prompts schreibt. Ich habe das Thema breit behandelt.
 
-Was das Zeitmanagement betrifft, ja, ich hätte vielleicht noch intelligenter planen können. Aber ich konnte die meisten meiner Ideen umsetzen. Mit mehr Zeit hätte ich sicher noch mehr geschafft, da bin ich überzeugt.
+Was das Zeitmanagement betrifft, hätte ich vielleicht noch intelligenter planen können. Aber ich konnte die meisten meiner Ideen umsetzen. Mit mehr Zeit hätte ich sicher noch mehr geschafft, da bin ich überzeugt.
 
 Die Umfrage hat riesiges Potenzial. Das Thema ist wichtig, jetzt und in Zukunft. Ich würde gerne eine grössere Version davon durchführen. Das wäre mein nächster Schritt.
 
