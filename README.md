@@ -1,6 +1,6 @@
 # Projektdokumentation – KI-gestützte Webentwicklung
 
-## 📚 Inhaltsverzeichnis
+## Inhaltsverzeichnis
 
 1. [Einleitung](#einleitung)
 2. [Projektplanung](#projektplanung)
@@ -65,7 +65,7 @@ Viele KIs benötigten manuelle Nachbearbeitung (z. B. für Syntax, Design, Lay
 - **Cursor**
 - **PearAI**
 
-➡️ Ziel: Kann die KI eine funktionierende, responsive Website erstellen?
+Ziel: Kann die KI eine funktionierende, responsive Website erstellen?
 
 **Zusätzliche Tools:**
 
@@ -83,7 +83,7 @@ Beobachtungen:
 
 ## SAT App Landing Page – Mein kompletter Prompt
 
-### 1. 🎯 Goal of the Website
+### 1. Goal of the Website
 
 Create a clean, professional, and highly usable landing page for a **mobile app** that helps students prepare for the **SAT** (Scholastic Assessment Test).  
 The site should:
@@ -92,7 +92,7 @@ The site should:
 - Be fully responsive across all devices.
 - Include **abstract sections** for a creative, modern touch.
 
-### 2. 🖥️ Website Type
+### 2. Website Type
 
 A **landing page** with structured subpages:
 
@@ -103,7 +103,7 @@ A **landing page** with structured subpages:
 - `/contact.html`: Contact & Feedback Form
 - `/calculator.html`: SAT Score Calculator
 
-### 3. 🧱 Pages & Layout
+### 3. Pages & Layout
 
 | Page                  | Description                                                                 | CSS File              |
 |-----------------------|-----------------------------------------------------------------------------|------------------------|
@@ -120,7 +120,7 @@ Each page includes:
 - Grid-based main layout
 - Footer with legal info, email, privacy, social links (optional)
 
-### 4. 🎨 Design Style
+### 4. Design Style
 
 A **hybrid of Swiss and California design**:
 
@@ -144,12 +144,12 @@ Design accents:
 - [x] Feedback module (text + star rating)
 - [ ] Optional: Dark mode toggle, interactive scroll animations
 
-### 6. 💡 Tech Stack
+### 6. Tech Stack
 
-- ❌ **No frameworks** (e.g. no Bootstrap, Tailwind)
-- ✅ **Native HTML5 / CSS3**
+  - **No frameworks** (e.g. no Bootstrap, Tailwind)
+  - **Native HTML5 / CSS3**
   - CSS Grid, Flexbox, media queries
-- ✅ **Vanilla JavaScript**
+  - **Vanilla JavaScript**
   - Calculator logic
   - Filtering
   - Form validation
@@ -157,14 +157,14 @@ Design accents:
 
 **Folder structure must remain clean and scalable.**
 
-### 7. 🔍 Design Inspirations
+### 7. Design Inspirations
 
 - **Notion** – layout clarity  
 - **Apple** – storytelling  
 - **Superlist** – abstract animations  
 - **Swissdesign.org** – space & typography
 
-### 8. 📌 Summary
+### 8. Summary
 
 Build a **modern SAT App Landing Page** with:
 - Swiss-inspired minimalism  
@@ -179,19 +179,19 @@ Build a **modern SAT App Landing Page** with:
 
 ## Benutzerumfrage zur KI-Nutzung
 
-### ❓ Frage 1: Haben Sie jemals KI benutzt?
+### Frage 1: Haben Sie jemals KI benutzt?
 
 ![Diagramm: KI-Benutzung](https://raw.githubusercontent.com/Coding-Bz/Modul293/main/Diagramme/KIBenutzung.jpg)
 
 ---
 
-### ❓ Frage 2: Würden Sie eine von einer KI erstellte Website nutzen, wenn Ihnen das bekannt ist?
+### Frage 2: Würden Sie eine von einer KI erstellte Website nutzen, wenn Ihnen das bekannt ist?
 
 ![Diagramm: Beliebtheit von KI-Webseiten](https://github.com/Coding-Bz/Modul293/blob/main/Diagramme/KIWebsiteBeliebtheit.png?raw=true)
 
 ---
 
-### ❓ Frage 3: Welcher Website vertrauen Sie mehr?
+### Frage 3: Welcher Website vertrauen Sie mehr?
 
 ![Diagramm: Vertrauen in KI-Webseiten](https://github.com/Coding-Bz/Modul293/blob/main/Diagramme/VertrauenAnKI.png?raw=true)
 
@@ -199,7 +199,7 @@ Build a **modern SAT App Landing Page** with:
 
 ## Erkenntnisse der Umfrage
 
-### 🧠 Frage 1: Haben Sie jemals KI benutzt?
+### Frage 1: Haben Sie jemals KI benutzt?
 
 Diese Frage diente als Einstieg ins Thema. 20 % der Befragten gaben an, noch nie KI benutzt zu haben.  
 Interessanterweise kam eine ähnliche Studie zum selben Ergebnis: Auch bei Sekundarschülerinnen und -schülern zeigte sich, dass rund 80 % bereits Erfahrung mit KI gemacht haben.
@@ -209,7 +209,7 @@ Dass bereits so viele in der Schweiz KI nutzen, freut mich persönlich – es is
 
 ---
 
-### 🌐 Frage 2: Würden Sie eine von einer KI erstellte Website nutzen, wenn Ihnen das bekannt ist?
+### Frage 2: Würden Sie eine von einer KI erstellte Website nutzen, wenn Ihnen das bekannt ist?
 
 Vor dieser Frage fragte ich auch, was den Leuten an einer Website grundsätzlich wichtig ist. Die häufigste Antwort war Übersichtlichkeit, dicht gefolgt von Benutzerfreundlichkeit.  
 Design wurde zwar kaum direkt erwähnt, aber Übersichtlichkeit hängt meiner Meinung nach stark mit Design zusammen.
@@ -221,7 +221,7 @@ Aber 86 % Zustimmung ist deutlich – das zeigt, dass KI in der Schweiz inzwis
 
 ---
 
-### 🔐 Frage 3: Welcher Website vertrauen Sie mehr – einer von einer KI oder einem Menschen erstellten?
+### Frage 3: Welcher Website vertrauen Sie mehr – einer von einer KI oder einem Menschen erstellten?
 
 Diese Frage fand ich persönlich am spannendsten.  
 **53 % sagten: „Kein Unterschied.“**  
@@ -249,7 +249,7 @@ Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache is
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 Insgesamt bin ich ziemlich stolz auf mein Projekt. Ich habe mehr gemacht als verlangt und das mit echtem Einsatz. Ich habe sechs verschiedene Webseiten gebaut. Für jede KI, die ich getestet habe, zwei Seiten, um fair zu bleiben. Denn es kann sein, dass die erste super läuft, die zweite aber gar nicht funktioniert. Deshalb wollte ich einen direkten Vergleich machen. Es gab auch eine KI, die gar nicht funktioniert hat, trotzdem habe ich mich über sie informiert und dazugelernt.
 
