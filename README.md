@@ -70,6 +70,12 @@ Viele KIs benötigten manuelle Nachbearbeitung (z. B. für Syntax, Design, Lay
 
 Ich habe **bewusst nicht alles der KI überlassen**, sondern die KI gezielt eingesetzt.
 
+## Vorgehensweise
+
+Meine Vorgehensweise war es, zuerst einen Auftrag zu wählen, der zu meinen Interessen passt, damit ich mit voller Motivation daran arbeiten kann. Danach habe ich immer weiter zum Thema recherchiert, um mir eine solide Wissensbasis für die praktische Umsetzung aufzubauen.
+Ich habe versucht, meine Aufgaben fokussiert und konzentriert zu bearbeiten mit dem Ziel: je schneller ich die Pflichtbereiche abschliesse, desto früher kann ich mit den Zusatzaufträgen anfangen.
+Ich habe probiert, meine Vorgehensweise nach dem IPERKA-Modell aufzubauen und meine Entscheidungen während des gesamten Projekts so logisch wie möglich zu treffen, was sich auch in anderen Bereichen der Dokumentation zeigt.
+
 ---
 
 ## SAT App Landing Page – Mein kompletter Prompt
@@ -276,8 +282,19 @@ Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache is
 
 ---
 
-## Fazit
+### Fazit
 
+## Vorteile der KI-Nutzung:
+
+KI in der Webentwicklung steigert die Geschwindigkeit der Entwicklung auf einem enorm hohen Niveau und damit auch die Effizienz. Man ist deutlich produktiver, als man es ohne KI wäre. Ausserdem werden durch den Einsatz von KI weniger Flüchtigkeitsfehler gemacht.
+
+## Nachteile der KI-Nutzung:
+
+Man muss, wie ich selbst festgestellt habe, häufig Syntaxfehler und Schönheitsfehler korrigieren. Allgemein muss man bei der Nutzung von KI darauf achten, keine sensiblen Daten preiszugeben. Die KI arbeitet zudem nicht vollständig selbstständig, als Entwickler*in muss man verstehen, was man tut, und in der Lage sein, auftretende Herausforderungen auch ohne KI zu lösen.
+
+
+
+## Reflexion
 Insgesamt bin ich ziemlich stolz auf mein Projekt. Ich habe mehr gemacht als verlangt und das mit echtem Einsatz. Ich habe sechs verschiedene Webseiten gebaut. Für jede KI, die ich getestet habe, zwei Seiten, um fair zu bleiben. Denn es kann sein, dass die erste super läuft, die zweite aber gar nicht funktioniert. Deshalb wollte ich einen direkten Vergleich machen. Es gab auch eine KI, die gar nicht funktioniert hat, trotzdem habe ich mich über sie informiert und dazugelernt.
 
 Ich habe eine Umfrage gemacht, um die Meinung der Gesellschaft zur KI in der Webentwicklung zu verstehen. Ich habe ein Video produziert, in dem ich live die Tools analysiere, Webseiten teste, zeige, ob sie responsive sind und erkläre, wie man richtige Prompts schreibt. Ich habe das Thema breit behandelt.
