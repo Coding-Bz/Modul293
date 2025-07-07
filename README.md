@@ -204,10 +204,11 @@ Build a **modern SAT App Landing Page** with:
 
 ### Auswertung der KI's, welche ich benutzt habe
 
-![image](https://github.com/user-attachments/assets/eab4ccb3-f5c9-44d1-a52c-797586c03a73](https://github.com/Coding-Bz/Modul293/blob/main/Auswertung%20der%20KI's%20Matrix.png)
+![image](https://github.com/Coding-Bz/Modul293/blob/main/Auswertung%20der%20KI's%20Matrix.png)
 
 Die Seite, für die ich mich letztlich entschieden habe, ist jene von Replit.  
 Ein Link zur Seite und zum zugehörigen Repository befindet sich bei den [🔗 Verlinkungen](#-links).  
+
 **Für mehr Informationen kann ich höchstens empfehlen, mein YouTube-Video anzuschauen, weil ich dort alles gezeigt habe , je eine Seite pro AI und auch meine Auswertung detailliert begründet habe. Ich habe ausserdem mein Prompt-Layout erklärt und warum dieses Thema wichtig ist.**
 
 ---
