@@ -294,3 +294,5 @@ Für mich war das Modul 293 eine Chance, eigene Interessen zu verfolgen und dabe
 ## 🔗 Links
 
 - [📺 Mein YouTube-Video ansehen](https://www.youtube.com/watch?v=wInEG9HPNbU)
+- [Der Link-zu meinem Projektarbeit](https://coding-bz.github.io/SATPrep-Pro/)
+- [Der Link zu meinem Repostory speziell für meinen Projektarbeit](https://github.com/Coding-Bz/SATPrep-Pro)
