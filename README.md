@@ -3,14 +3,15 @@
 ## Inhaltsverzeichnis
 
 1. [Einleitung](#einleitung)  
-2. [Projektplanung - Vorgehehensweise](#projektplanung-vorgehensweise)  
+2. [Projektplanung – Vorgehensweise](#projektplanung--vorgehensweise)  
 3. [SAT App Landing Page – Mein kompletter Prompt](#sat-app-landing-page--mein-kompletter-prompt)  
 4. [Stile & Design der abgeschlossenen Website](#stile--design-der-abgeschlossenen-website)  
 5. [Benutzerumfrage zur KI-Nutzung](#benutzerumfrage-zur-ki-nutzung)  
 6. [Erkenntnisse der Umfrage](#erkenntnisse-der-umfrage)  
 7. [Problemlösungen](#problemlösungen)  
 8. [Fazit](#fazit)  
-9. [Links](#-links)
+9. [🔗 Links](#-links)
+
 
 ---
 
@@ -36,7 +37,7 @@ Das Repository & das begleitende YouTube-Video sind **öffentlich zugänglich**.
 
 ---
 
-## Projektplanung - Vorgehensweise
+## Projektplanung – Vorgehensweise
 
 **Dauer:** 7 Tage  
 **Aufteilung:**
@@ -67,7 +68,7 @@ Viele KIs benötigten manuelle Nachbearbeitung (z. B. für Syntax, Design, Lay
 - **TurboScribe**: Audio-Transkription  
 - **ChatGPT**: Grammatik-/Rechtschreibkorrektur  
 
-Ich habe **bewusst nicht alles der KI überlassen**, sondern gezielt nachgebessert.
+Ich habe **bewusst nicht alles der KI überlassen**, sondern die KI gezielt eingesetzt.
 
 ---
 
