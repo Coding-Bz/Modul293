@@ -3,7 +3,7 @@
 ## Inhaltsverzeichnis
 
 1. [Einleitung](#einleitung)  
-2. [Projektplanung - Vorgehehensweise](#projektplanung-vorhgehensweise)  
+2. [Projektplanung - Vorgehehensweise](#projektplanung-vorgehensweise)  
 3. [SAT App Landing Page – Mein kompletter Prompt](#sat-app-landing-page--mein-kompletter-prompt)  
 4. [Stile & Design der abgeschlossenen Website](#stile--design-der-abgeschlossenen-website)  
 5. [Benutzerumfrage zur KI-Nutzung](#benutzerumfrage-zur-ki-nutzung)  
