@@ -177,6 +177,34 @@ Build a **modern SAT App Landing Page** with:
 
 ---
 
+## Die Frab-Palette 
+
+| Zweck                       | Variable / Hex                      | Beschreibung                                                   |
+|----------------------------|-------------------------------------|----------------------------------------------------------------|
+| **Primärfarbe**            | `--primary-blue` / `#1e90ff`        | Sat-blau (DodgerBlue), verwendet für Headlines, Buttons, Links |
+| **Akzentfarbe**            | `--accent-orange` / z. B. `#ffa500` | Für Highlights wie Verbesserungen, Hover, etc.                 |
+| **Hintergrundfarbe hell**  | `--light-gray` / `#f8fafc`          | Sanfte Verläufe, Section-Hintergründe                          |
+| **Hintergrundfarbe dunkel**| `--dark-gray` / `#2d3748`           | Footer / CTA-Verläufe                                          |
+| **Text Standard**          | `--medium-gray` / `#4a5568`         | Für Absätze, Labels, Infotexte                                 |
+| **Weiss**                  | `--white` / `#ffffff`               | Karten, Hintergrundkontraste                                   |
+
+
+## Typografie-Styleguide
+
+
+| Element             | CSS                                                                                     |
+|---------------------|------------------------------------------------------------------------------------------|
+| **H1 (Hero-Heading)** | `font-size: var(--font-size-5xl)`<br>`font-weight: 700`                                 |
+| **H2 (Sections)**     | `font-size: var(--font-size-3xl)`<br>`font-weight: 700`                                 |
+| **H3 (Cards etc.)**   | `font-size: var(--font-size-xl)`<br>`font-weight: 600`                                  |
+| **Paragraph (Text)**  | `font-size: var(--font-size-base)`<br>`color: var(--medium-gray)`                       |
+| **Stat-Zahlen**       | `font-size: var(--font-size-4xl)`<br>`font-weight: 700`<br>`color: var(--primary-blue)` |
+| **Buttons**           | `font-weight: 600`<br>`text-transform: uppercase`                                       |
+| **Small Text**        | `font-size: var(--font-size-sm)`                                                        |
+                                        
+
+
+
 ## Benutzerumfrage zur KI-Nutzung
 
 ### Frage 1: Haben Sie jemals KI benutzt?
