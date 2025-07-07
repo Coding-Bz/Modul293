@@ -177,7 +177,7 @@ Build a **modern SAT App Landing Page** with:
 
 ---
 
-## Die Frab-Palette 
+## Die Farb-Palette 
 
 | Zweck                       | Variable / Hex                      | Beschreibung                                                   |
 |----------------------------|-------------------------------------|----------------------------------------------------------------|
