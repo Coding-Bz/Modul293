@@ -24,7 +24,7 @@ Das Projekt umfasst:
 - ein YouTube-Video  
 - die Evaluation von vier verschiedenen KIs (drei davon im Detail)  
 - für jede dieser drei KIs wurden zwei Webseiten erstellt  
-- vollständiger Sourcecode + README pro Projekt
+- vollständiger Sourcecode
 
 **Meine persönlichen Ziele:**
 
