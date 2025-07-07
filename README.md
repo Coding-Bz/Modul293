@@ -2,15 +2,16 @@
 
 ## Inhaltsverzeichnis
 
-1. [Einleitung](#einleitung)
-2. [Projektplanung](#projektplanung)
-3. [KI-gestützte Entwicklung – Vorgehensweise](#ki-gestützte-entwicklung--vorgehensweise)
-4. [SAT App Landing Page – Mein kompletter Prompt](#sat-app-landing-page--mein-kompletter-prompt)
-5. [Benutzerumfrage zur KI-Nutzung](#benutzerumfrage-zur-ki-nutzung)
-6. [Erkenntnisse der Umfrage](#erkenntnisse-der-umfrage)
-7. [Problemlösungen](#problemlösungen)
-8. [Fazit](#fazit)
-9. [Links](#links)
+1. [Einleitung](#einleitung)  
+2. [Projektplanung](#projektplanung)  
+3. [KI-gestützte Entwicklung – Vorgehensweise](#ki-gestützte-entwicklung--vorgehensweise)  
+4. [SAT App Landing Page – Mein kompletter Prompt](#sat-app-landing-page--mein-kompletter-prompt)  
+5. [Stile & Design der abgeschlossenen Website](#stile--design-der-abgeschlossenen-website)  
+6. [Benutzerumfrage zur KI-Nutzung](#benutzerumfrage-zur-ki-nutzung)  
+7. [Erkenntnisse der Umfrage](#erkenntnisse-der-umfrage)  
+8. [Problemlösungen](#problemlösungen)  
+9. [Fazit](#fazit)  
+10. [🔗 Links](#-links)
 
 ---
 
@@ -176,21 +177,20 @@ Build a **modern SAT App Landing Page** with:
 - Elegant UX & creative visuals  
 
 ---
+## Stile & Design der abgeschlossenen Website
 
-## Die Farb-Palette 
+### Farbpalette
 
 | Zweck                       | Variable / Hex                      | Beschreibung                                                   |
 |----------------------------|-------------------------------------|----------------------------------------------------------------|
 | **Primärfarbe**            | `--primary-blue` / `#1e90ff`        | Sat-blau (DodgerBlue), verwendet für Headlines, Buttons, Links |
-| **Akzentfarbe**            | `--accent-orange` / z. B. `#ffa500` | Für Highlights wie Verbesserungen, Hover, etc.                 |
-| **Hintergrundfarbe hell**  | `--light-gray` / `#f8fafc`          | Sanfte Verläufe, Section-Hintergründe                          |
-| **Hintergrundfarbe dunkel**| `--dark-gray` / `#2d3748`           | Footer / CTA-Verläufe                                          |
+| **Akzentfarbe**            | `--accent-orange` / `#ffa500`       | Für Highlights wie Verbesserungen, Hover, etc.                 |
+| **Hintergrund hell**       | `--light-gray` / `#f8fafc`          | Sanfte Verläufe, Section-Hintergründe                          |
+| **Hintergrund dunkel**     | `--dark-gray` / `#2d3748`           | Footer / CTA-Verläufe                                          |
 | **Text Standard**          | `--medium-gray` / `#4a5568`         | Für Absätze, Labels, Infotexte                                 |
 | **Weiss**                  | `--white` / `#ffffff`               | Karten, Hintergrundkontraste                                   |
 
-
-## Typografie-Styleguide
-
+### Typografie
 
 | Element             | CSS                                                                                     |
 |---------------------|------------------------------------------------------------------------------------------|
@@ -201,9 +201,16 @@ Build a **modern SAT App Landing Page** with:
 | **Stat-Zahlen**       | `font-size: var(--font-size-4xl)`<br>`font-weight: 700`<br>`color: var(--primary-blue)` |
 | **Buttons**           | `font-weight: 600`<br>`text-transform: uppercase`                                       |
 | **Small Text**        | `font-size: var(--font-size-sm)`                                                        |
-                                        
 
+### Design-Auswertung
 
+![image](https://github.com/user-attachments/assets/eab4ccb3-f5c9-44d1-a52c-797586c03a73)
+
+Die Seite, für die ich mich letztlich entschieden habe, ist jene von Replit.  
+Ein Link zur Seite und zum zugehörigen Repository befindet sich bei den [🔗 Verlinkungen](#-links).  
+**Für mehr Informationen kann ich höchstens empfehlen, mein YouTube-Video anzuschauen, weil ich dort alles gezeigt habe , je eine Seite pro AI und auch meine Auswertung detailliert begründet habe. Ich habe ausserdem mein Prompt-Layout erklärt und warum dieses Thema wichtig ist.**
+
+---
 
 ## Benutzerumfrage zur KI-Nutzung
 
@@ -262,6 +269,9 @@ Eine mögliche Erklärung: Sie erwarten von großen KI-Systemen mehr Sicherheit 
 Das zeigt: Viele vertrauen weiterhin lieber menschlicher Arbeit. Ganz so weit, dass wir die Kontrolle komplett der KI überlassen wollen, sind wir also noch nicht.
 
 ---
+(*Deine sehr gute Analyse bleibt vollständig erhalten – ich habe hier nichts geändert.*)
+
+---
 
 ## Problemlösungen
 
@@ -274,7 +284,6 @@ Ein weiterer Punkt war die Objektivität. Vor allem bei der Auswertung, zum Beis
 Bei der Umfrage war es auch schwierig, Leute zu finden, die mir überhaupt ihre Meinung mitteilen wollten. Ich habe schon früher Umfragen gemacht, in Wirtschaft und IT, und auch gelernt, wie man Menschen anspricht. Aber gerade in Zürich habe ich gemerkt, viele sind skeptisch, vor allem bei solchen Themen. Und ich durfte auch nicht im Bahnhof selbst Leute ansprechen, weil das SBB Gelände ist. Also habe ich alles rund um die Europaallee gemacht, was aber im Nachhinein gar kein schlechter Ort war.
 
 Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache ist. Ich war anfangs unsicher, aber alle in meinem Umfeld haben gesagt, ich soll es machen. Erstens, um meine Englischkenntnisse zu trainieren. Zweitens, weil ich bei Google arbeite und wir da sowieso alles auf Englisch machen. Und drittens, weil ich so eine größere Zielgruppe ansprechen kann. Ich habe das Video zuerst auf Deutsch aufgenommen, dann übersetzt und beide Versionen bereitgestellt, welches mir auch viel Zeit gekostet hat.
-
 ---
 
 ## Fazit
@@ -288,11 +297,10 @@ Was das Zeitmanagement betrifft, ja, ich hätte vielleicht noch intelligenter pl
 Die Umfrage hat riesiges Potenzial. Das Thema ist wichtig, jetzt und in Zukunft. Ich würde gerne eine grössere Version davon durchführen. Das wäre mein nächster Schritt.
 
 Für mich war das Modul 293 eine Chance, eigene Interessen zu verfolgen und dabei trotzdem beim Thema zu bleiben. Es gibt bei allem noch Verbesserungspotenzial, aber für die gegebene Zeit habe ich meiner Meinung nach das Beste draus gemacht.
-
 ---
 
 ## 🔗 Links
 
 - [📺 Mein YouTube-Video ansehen](https://www.youtube.com/watch?v=wInEG9HPNbU)
-- [Der Link-zu meinem Projektarbeit](https://coding-bz.github.io/SATPrep-Pro/)
-- [Der Link zu meinem Repostory speziell für meinen Projektarbeit](https://github.com/Coding-Bz/SATPrep-Pro)
+- [🌐 Projektwebsite](https://coding-bz.github.io/SATPrep-Pro/)
+- [📂 Projekt-Repository auf GitHub](https://github.com/Coding-Bz/SATPrep-Pro)
