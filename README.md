@@ -204,7 +204,7 @@ Build a **modern SAT App Landing Page** with:
 
 ### Auswertung der KI's, welche ich benutzt habe
 
-![image][(https://github.com/user-attachments/assets/eab4ccb3-f5c9-44d1-a52c-797586c03a73](https://github.com/Coding-Bz/Modul293/blob/main/Auswertung%20der%20KI's%20Matrix.png)]
+![image](https://github.com/user-attachments/assets/eab4ccb3-f5c9-44d1-a52c-797586c03a73](https://github.com/Coding-Bz/Modul293/blob/main/Auswertung%20der%20KI's%20Matrix.png)
 
 Die Seite, für die ich mich letztlich entschieden habe, ist jene von Replit.  
 Ein Link zur Seite und zum zugehörigen Repository befindet sich bei den [🔗 Verlinkungen](#-links).  
@@ -268,8 +268,6 @@ Eine mögliche Erklärung: Sie erwarten von großen KI-Systemen mehr Sicherheit 
 **40 % bevorzugten aber eine von einem Menschen erstellte Website.**  
 Das zeigt: Viele vertrauen weiterhin lieber menschlicher Arbeit. Ganz so weit, dass wir die Kontrolle komplett der KI überlassen wollen, sind wir also noch nicht.
 
----
-(*Deine sehr gute Analyse bleibt vollständig erhalten – ich habe hier nichts geändert.*)
 
 ---
 
@@ -284,6 +282,7 @@ Ein weiterer Punkt war die Objektivität. Vor allem bei der Auswertung, zum Beis
 Bei der Umfrage war es auch schwierig, Leute zu finden, die mir überhaupt ihre Meinung mitteilen wollten. Ich habe schon früher Umfragen gemacht, in Wirtschaft und IT, und auch gelernt, wie man Menschen anspricht. Aber gerade in Zürich habe ich gemerkt, viele sind skeptisch, vor allem bei solchen Themen. Und ich durfte auch nicht im Bahnhof selbst Leute ansprechen, weil das SBB Gelände ist. Also habe ich alles rund um die Europaallee gemacht, was aber im Nachhinein gar kein schlechter Ort war.
 
 Das Video habe ich auf Englisch gemacht, obwohl das nicht meine Muttersprache ist. Ich war anfangs unsicher, aber alle in meinem Umfeld haben gesagt, ich soll es machen. Erstens, um meine Englischkenntnisse zu trainieren. Zweitens, weil ich bei Google arbeite und wir da sowieso alles auf Englisch machen. Und drittens, weil ich so eine größere Zielgruppe ansprechen kann. Ich habe das Video zuerst auf Deutsch aufgenommen, dann übersetzt und beide Versionen bereitgestellt, welches mir auch viel Zeit gekostet hat.
+
 ---
 
 ## Fazit
@@ -297,6 +296,7 @@ Was das Zeitmanagement betrifft, ja, ich hätte vielleicht noch intelligenter pl
 Die Umfrage hat riesiges Potenzial. Das Thema ist wichtig, jetzt und in Zukunft. Ich würde gerne eine grössere Version davon durchführen. Das wäre mein nächster Schritt.
 
 Für mich war das Modul 293 eine Chance, eigene Interessen zu verfolgen und dabei trotzdem beim Thema zu bleiben. Es gibt bei allem noch Verbesserungspotenzial, aber für die gegebene Zeit habe ich meiner Meinung nach das Beste draus gemacht.
+
 ---
 
 ## 🔗 Links
